@@ -29,7 +29,7 @@
             "guid": "eda1dae2-cc85-4c47-a6b7-81cca0e6c465",
             "id": "A01.01",
             "link": "https://learn.microsoft.com/azure/devops/repos/git/branch-policies-overview?view=azure-devops",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "분기 정책",
             "text": " 분기 정책"
         },
@@ -39,7 +39,7 @@
             "guid": "bc288bec-6a16-4ca7-8444-51e1add34529",
             "id": "A01.02",
             "link": "https://learn.microsoft.com/azure/devops/repos/git/git-branching-guidance?view=azure-devops",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "분기 정책",
             "text": "분기 전략"
         },
@@ -49,7 +49,7 @@
             "guid": "ec723823-7a15-41c5-ab4e-401914387e5c",
             "id": "A01.03",
             "link": "https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "분기 정책",
             "text": "GitFlow 브랜치 전략 이해"
         },
@@ -59,7 +59,7 @@
             "guid": "a9c26c9c-32ab-45bd-8c69-98a246e33899",
             "id": "A01.04",
             "link": "https://learn.microsoft.com/azure/devops/repos/git/review-pull-requests?view=azure-devops&tabs=browser",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "분기 정책",
             "text": "끌어오기 요청 검토"
         },
@@ -79,7 +79,7 @@
             "guid": "adfd27bd-e187-401a-a252-baa9b68a088c",
             "id": "A02.01",
             "link": "https://devblogs.microsoft.com/devops/integrate-security-into-your-developer-workflow-with-github-advanced-security-for-azure-devops/",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "안전",
             "text": "코드 스캔"
         },
@@ -89,7 +89,7 @@
             "guid": "9a8f822b-8eb9-4d1b-a77f-26e5e6beba8e",
             "id": "A03.01",
             "link": "https://learn.microsoft.com/azure/devops/repos/tfvc/what-is-tfvc?view=azure-devops",
-            "severity": "낮다",
+            "severity": "낮음음",
             "subcategory": "연습",
             "text": "코드 리포지토리로서의 TFVC"
         },
@@ -99,7 +99,7 @@
             "guid": "d4f3437b-c336-4d71-9f27-a71eee0b9b5d",
             "id": "A03.02",
             "link": "https://learn.microsoft.com/azure/devops/repos/tfvc/comparison-git-tfvc?view=azure-devops",
-            "severity": "낮다",
+            "severity": "낮음음",
             "subcategory": "연습",
             "text": "올바른 버전 관리를 선택합니다."
         },
@@ -109,7 +109,7 @@
             "guid": "8defd5d7-21d4-41d2-900c-807bf9eab40f",
             "id": "B01.01",
             "link": "https://learn.microsoft.com/azure/devops/organizations/settings/manage-teams?view=azure-devops",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "팀 계획",
             "text": "팀 구성"
         },
@@ -129,7 +129,7 @@
             "guid": "699ef1d5-a83d-4e5d-b36c-1c81870a0bc5",
             "id": "B01.03",
             "link": "https://learn.microsoft.com/azure/devops/organizations/settings/work/customize-process-work-item-type?view=azure-devops",
-            "severity": "낮다",
+            "severity": "낮음음",
             "subcategory": "팀 계획",
             "text": "작업 항목 형식 선택"
         },
@@ -139,7 +139,7 @@
             "guid": "c1e43a18-658d-4285-aed6-7179b825546d",
             "id": "B01.04",
             "link": "https://learn.microsoft.com/azure/devops/boards/work-items/guidance/choose-process?view=azure-devops&tabs=agile-process",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "팀 계획",
             "text": "WIT 프로세스 선택"
         },
@@ -149,7 +149,7 @@
             "guid": "f2aee455-3afc-4833-a248-726dd68c5b5c",
             "id": "B02.01",
             "link": "https://learn.microsoft.com/azure/devops/cross-service/github-integration?view=azure-devops",
-            "severity": "낮다",
+            "severity": "낮음음",
             "subcategory": "툴 통합",
             "text": "GitHub 통합"
         },
@@ -199,7 +199,7 @@
             "guid": "b5a67fcb-9ed5-4b35-978d-447a826c2863",
             "id": "C01.01",
             "link": "https://learn.microsoft.com/azure/devops/report/dashboards/team-velocity?view=azure-devops&tabs=in-context",
-            "severity": "낮다",
+            "severity": "낮음음",
             "subcategory": "보고",
             "text": "팀 속도 검토"
         },
@@ -209,7 +209,7 @@
             "guid": "c00f1cac-699e-4f1d-9a83-de5de36c1c81",
             "id": "C02.01",
             "link": "https://learn.microsoft.com/azure/devops/pipelines/create-first-pipeline?view=azure-devops&tabs=java%2Ctfs-2018-2%2Cbrowser",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "지속적 통합",
             "text": "파이프라인 설정"
         },
@@ -219,7 +219,7 @@
             "guid": "870a0bc5-c1e4-43a1-a658-d2858ed67179",
             "id": "C02.02",
             "link": "https://learn.microsoft.com/azure/devops/pipelines/build/triggers?view=azure-devops",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "지속적 통합",
             "text": "빌드 트리거 설정"
         },
@@ -229,7 +229,7 @@
             "guid": "b825546d-f2ae-4e45-93af-c8339248726d",
             "id": "C02.03",
             "link": "https://learn.microsoft.com/azure/devops/pipelines/customize-pipeline?view=azure-devops",
-            "severity": "낮다",
+            "severity": "낮음음",
             "subcategory": "지속적 통합",
             "text": "YAML 파이프라인 사용자 지정"
         },
@@ -259,7 +259,7 @@
             "guid": "633bd2a1-a27a-4764-a90b-e0e378ee293c",
             "id": "C02.06",
             "link": "https://learn.microsoft.com/azure/devops/pipelines/process/stages?view=azure-devops&tabs=yaml",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "지속적 통합",
             "text": "작업"
         },
@@ -279,7 +279,7 @@
             "guid": "1bb84b37-b5a6-47fc-a9ed-5b35478d447a",
             "id": "C02.08",
             "link": "https://learn.microsoft.com/azure/devops/pipelines/process/variables?view=azure-devops&tabs=yaml%2Cbatch",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "지속적 통합",
             "text": "변수"
         },
@@ -289,7 +289,7 @@
             "guid": "826c2863-c00f-41ca-a699-ef1d5a83de5d",
             "id": "C03.01",
             "link": "https://learn.microsoft.com/azure/devops/pipelines/process/create-multistage-pipeline?view=azure-devops",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "지속적 배포",
             "text": "배포 파이프라인"
         },
@@ -341,7 +341,7 @@
             "guid": "74a759c7-633b-4d2a-8a27-a764a90be0e3",
             "id": "C03.06",
             "link": "https://learn.microsoft.com/azure/devops/pipelines/process/invoke-checks?view=azure-devops",
-            "severity": "낮다",
+            "severity": "낮음음",
             "subcategory": "지속적 배포",
             "text": "Azure Function 검사",
             "training": "https://learn.microsoft.com/learn/paths/implement-resource-mgmt-security/"
@@ -352,7 +352,7 @@
             "guid": "78ee293c-1bd3-463c-aaab-7571949ab919",
             "id": "C03.07",
             "link": "https://learn.microsoft.com/azure/devops/pipelines/reports/pipelinereport?view=azure-devops",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "지속적 배포",
             "text": "Pipline 보고서",
             "training": "https://learn.microsoft.com/learn/modules/plan-implement-administer-conditional-access/"
@@ -396,7 +396,7 @@
             "guid": "8658d285-8ed6-4717-ab82-5546df2aee45",
             "id": "C05.02",
             "link": "https://learn.microsoft.com/azure/devops/pipelines/release/deployment-groups/?view=azure-devops",
-            "severity": "낮다",
+            "severity": "낮음음",
             "subcategory": "지속적 배포",
             "text": "배포 그룹",
             "training": "https://learn.microsoft.com/learn/modules/explore-basic-services-identity-types/"
@@ -407,7 +407,7 @@
             "guid": "53afc833-9248-4726-bd68-c5b5c2925394",
             "id": "C05.03",
             "link": "https://learn.microsoft.com/azure/devops/pipelines/ecosystems/kubernetes/deploy?view=azure-devops",
-            "severity": "낮다",
+            "severity": "낮음음",
             "subcategory": "지속적 배포",
             "text": "쿠버네티스에 배포",
             "training": "https://learn.microsoft.com/learn/paths/manage-identity-and-access/"
@@ -451,7 +451,7 @@
             "guid": "949ab919-3dc9-4fc9-b1bb-84b37b5a67fc",
             "id": "C07.01",
             "link": "https://learn.microsoft.com/azure/devops/pipelines/licensing/concurrent-jobs?view=azure-devops&tabs=ms-hosted",
-            "severity": "낮다",
+            "severity": "낮음음",
             "subcategory": "관리",
             "text": "병렬 파이프라인",
             "training": "https://learn.microsoft.com/learn/modules/implement-hybrid-identity-windows-server/"
@@ -473,7 +473,7 @@
             "guid": "c699ef1d-5a83-4de5-be36-c1c81870a0bc",
             "id": "C08.02",
             "link": "https://learn.microsoft.com/azure/devops/pipelines/policies/set-permissions?view=azure-devops",
-            "severity": "낮다",
+            "severity": "낮음음",
             "subcategory": "안전",
             "text": "파이프라인 사용자",
             "training": "https://learn.microsoft.com/learn/paths/implement-applications-external-access-azure-ad/"
@@ -506,7 +506,7 @@
             "guid": "c2925394-b69b-49d3-99ac-43bc68d1d766",
             "id": "D01.03",
             "link": "https://learn.microsoft.com/azure/devops/pipelines/artifacts/nuget?view=azure-devops&tabs=yaml",
-            "severity": "낮다",
+            "severity": "낮음음",
             "subcategory": "구성",
             "text": "NuGet (뉴겟)",
             "training": "https://learn.microsoft.com/azure/role-based-access-control/overview"
@@ -517,7 +517,7 @@
             "guid": "57246b44-8564-4b4d-b74a-759c7633bd2a",
             "id": "D01.04",
             "link": "https://learn.microsoft.com/azure/devops/pipelines/artifacts/publish-maven-artifacts?view=azure-devops",
-            "severity": "낮다",
+            "severity": "낮음음",
             "subcategory": "구성",
             "text": "메이븐"
         },
@@ -527,7 +527,7 @@
             "guid": "1a27a764-a90b-4e0e-978e-e293c1bd363c",
             "id": "D01.05",
             "link": "https://learn.microsoft.com/azure/devops/pipelines/artifacts/npm?view=azure-devops&tabs=yaml",
-            "severity": "낮다",
+            "severity": "낮음음",
             "subcategory": "구성",
             "text": "엔피엠"
         },
@@ -547,7 +547,7 @@
             "guid": "7b5a67fc-b9ed-45b3-9478-d447a826c286",
             "id": "E01.01",
             "link": "https://learn.microsoft.com/devops/operate/what-is-monitoring",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "연습",
             "text": "무엇을 모니터링할 것인가?"
         },
@@ -567,7 +567,7 @@
             "guid": "1870a0bc-5c1e-443a-8865-8d2858ed6717",
             "id": "E01.03",
             "link": "https://learn.microsoft.com/devops/operate/how-microsoft-operates-devops",
-            "severity": "낮다",
+            "severity": "낮음음",
             "subcategory": "연습",
             "text": "사례 연구",
             "training": "https://learn.microsoft.com/azure/azure-monitor/logs/design-logs-deployment"
@@ -588,7 +588,7 @@
             "guid": "dd68c5b5-c292-4539-9b69-b9d379ac43bc",
             "id": "E01.05",
             "link": "https://learn.microsoft.com/devops/devsecops/enable-devsecops-azure-github",
-            "severity": "낮다",
+            "severity": "낮음음",
             "subcategory": "연습",
             "text": "데브세콥스",
             "training": "https://learn.microsoft.com/learn/paths/architect-infrastructure-operations/"
@@ -599,7 +599,7 @@
             "guid": "68d1d766-5724-46b4-9856-4b4dd74a759c",
             "id": "E01.06",
             "link": "https://learn.microsoft.com/azure/cloud-adoption-framework/secure/best-practices/end-to-end-governance",
-            "severity": "낮다",
+            "severity": "낮음음",
             "subcategory": "연습",
             "text": "안전한 DevOps Govenance",
             "training": "https://learn.microsoft.com/learn/paths/architect-infrastructure-operations/"
@@ -623,13 +623,13 @@
     },
     "severities": [
         {
-            "name": "높다"
+            "name": "높음"
         },
         {
             "name": "보통"
         },
         {
-            "name": "낮다"
+            "name": "낮음"
         }
     ],
     "status": [
@@ -643,7 +643,7 @@
         },
         {
             "description": "이 검사는 확인되었으며 이와 관련된 추가 작업 항목이 없습니다",
-            "name": "성취"
+            "name": "이행완료"
         },
         {
             "description": "권장 사항은 이해되었지만 현재 요구 사항에 필요하지 않음",
@@ -668,7 +668,7 @@
             "name": "작업"
         },
         {
-            "name": "공연"
+            "name": "성능"
         }
     ],
     "yesno": [
