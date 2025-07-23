@@ -8,13 +8,13 @@
             "name": "네트워크 토폴로지 및 연결"
         },
         {
-            "name": "안전"
+            "name": "보안"
         },
         {
             "name": "경영"
         },
         {
-            "name": "지배구조"
+            "name": "거버넌스"
         },
         {
             "name": "플랫폼 자동화 및 DevOps"
@@ -22,7 +22,7 @@
     ],
     "items": [
         {
-            "category": "지배구조",
+            "category": "거버넌스",
             "guid": "d7941d4a-7b6f-458f-8714-2f8f8c059ad4",
             "link": "https://learn.microsoft.com/azure/api-management/api-management-error-handling-policies",
             "service": "APIM",
@@ -32,7 +32,7 @@
             "waf": "작업"
         },
         {
-            "category": "지배구조",
+            "category": "거버넌스",
             "guid": "0b0c0765-ff37-4369-90bd-3eb23ce71b08",
             "link": "https://learn.microsoft.com/azure/api-management/set-edit-policies?tabs=form#use-base-element-to-set-policy-evaluation-order",
             "service": "APIM",
@@ -42,7 +42,7 @@
             "waf": "작업"
         },
         {
-            "category": "지배구조",
+            "category": "거버넌스",
             "guid": "a5c45b03-93b6-42fe-b16b-8fccb6a79902",
             "link": "https://learn.microsoft.com/azure/api-management/policy-fragments",
             "service": "APIM",
@@ -52,7 +52,7 @@
             "waf": "작업"
         },
         {
-            "category": "지배구조",
+            "category": "거버넌스",
             "guid": "c3818a95-6ff3-4474-88dc-e809b46dad6a",
             "link": "https://learn.microsoft.com/azure/api-management/monetization-support",
             "service": "APIM",
@@ -62,17 +62,17 @@
             "waf": "작업"
         },
         {
-            "category": "지배구조",
+            "category": "거버넌스",
             "guid": "a7d0840a-c8c4-4e83-adec-5ca578eb4049",
             "link": "https://learn.microsoft.com/azure/api-management/api-management-howto-use-azure-monitor#resource-logs",
             "service": "APIM",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "모니터링",
             "text": "진단 설정을 사용하도록 설정하여 로그를 Azure Monitor로 내보내기",
             "waf": "작업"
         },
         {
-            "category": "지배구조",
+            "category": "거버넌스",
             "guid": "8691fa38-45ed-4299-a247-fecd98d35deb",
             "link": "https://learn.microsoft.com/azure/api-management/api-management-howto-app-insights",
             "service": "APIM",
@@ -82,11 +82,11 @@
             "waf": "작업"
         },
         {
-            "category": "지배구조",
+            "category": "거버넌스",
             "guid": "55fd27bb-76ac-4a91-bc37-049e885be6b7",
             "link": "https://learn.microsoft.com/azure/api-management/api-management-howto-use-azure-monitor",
             "service": "APIM",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "모니터링",
             "text": "가장 중요한 메트릭에 대한 경고 구성",
             "waf": "작업"
@@ -96,20 +96,20 @@
             "guid": "39460bdb-156f-4dc2-a87f-1e8c11ab0998",
             "link": "https://learn.microsoft.com/security/benchmark/azure/baselines/api-management-security-baseline?toc=%2Fazure%2Fapi-management%2F&bc=%2Fazure%2Fapi-management%2Fbreadcrumb%2Ftoc.json#certificate-management-in-azure-key-vault",
             "service": "APIM",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "데이터 보호",
-            "text": "사용자 지정 SSL 인증서가 안전하게 액세스하고 업데이트할 수 있도록 Azure Key Vault에 저장되어 있는지 확인합니다",
-            "waf": "안전"
+            "text": "사용자 지정 SSL 인증서가 보안하게 액세스하고 업데이트할 수 있도록 Azure Key Vault에 저장되어 있는지 확인합니다",
+            "waf": "보안"
         },
         {
             "category": "ID 및 액세스 관리",
             "guid": "e9217997-5f6c-479d-8576-8f2adf706ec8",
             "link": "https://learn.microsoft.com/security/benchmark/azure/baselines/api-management-security-baseline?toc=%2Fazure%2Fapi-management%2F&bc=%2Fazure%2Fapi-management%2Fbreadcrumb%2Ftoc.json#azure-ad-authentication-required-for-data-plane-access",
             "service": "APIM",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "신원",
             "text": "Azure AD를 사용하여 API(데이터 평면)에 들어오는 요청 보호",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "ID 및 액세스 관리",
@@ -119,7 +119,7 @@
             "severity": "보통",
             "subcategory": "신원",
             "text": "Microsoft Entra ID를 사용하여 개발자 포털에서 사용자 인증",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "ID 및 액세스 관리",
@@ -129,7 +129,7 @@
             "severity": "보통",
             "subcategory": "권한 있는 액세스",
             "text": "제품의 가시성을 제어하기 위해 적절한 그룹을 만듭니다",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "경영",
@@ -176,7 +176,7 @@
             "guid": "8d2db6e8-85c6-4118-a52c-ae76a4f27934",
             "link": "https://learn.microsoft.com/security/benchmark/azure/baselines/api-management-security-baseline?toc=%2Fazure%2Fapi-management%2F&bc=%2Fazure%2Fapi-management%2Fbreadcrumb%2Ftoc.json#service-native-backup-capability",
             "service": "APIM",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "비즈니스 연속성 및 재해 복구",
             "text": "자동화된 백업 루틴이 있는지 확인",
             "waf": "신뢰도"
@@ -205,7 +205,7 @@
             "guid": "8210699f-8d43-45c2-8f19-57e54134bd8f",
             "link": "https://learn.microsoft.com/azure/api-management/api-management-howto-log-event-hubs",
             "service": "APIM",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "성능 및 확장성",
             "text": "고성능 수준에서 기록해야 하는 경우 Event Hubs 정책을 고려합니다",
             "waf": "작업"
@@ -219,7 +219,7 @@
             "subcategory": "성능 및 확장성",
             "text": "제한 정책을 적용하여 초당 요청 수 제어Apply throttling policies to control the number of requests per second",
             "training": "https://learn.microsoft.com/training/modules/protect-apis-on-api-management/",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "경영",
@@ -229,7 +229,7 @@
             "severity": "보통",
             "subcategory": "성능 및 확장성",
             "text": "부하가 증가할 때 인스턴스 수를 확장하도록 자동 크기 조정 구성Configure autoscaling to scale out the number of instances when the load increases",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "경영",
@@ -239,7 +239,7 @@
             "severity": "보통",
             "subcategory": "성능 및 확장성",
             "text": "Azure에 백 엔드 API에 가까운 지역이 없는 자체 호스팅 게이트웨이를 배포합니다.",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "경영",
@@ -266,7 +266,7 @@
             "guid": "46f07d33-ef9a-44e8-8f98-67c097c5d8cd",
             "link": "https://learn.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits#api-management-limits",
             "service": "APIM",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "자원 한계",
             "text": "APIM의 제한에 유의해야 합니다.",
             "waf": "신뢰도"
@@ -276,7 +276,7 @@
             "guid": "10f58602-f0f9-4d77-972a-956f6e0f2600",
             "link": "https://learn.microsoft.com/en-us/azure/api-management/self-hosted-gateway-overview",
             "service": "APIM",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "자체 호스팅",
             "text": "자체 호스팅 게이트웨이 배포가 복원력이 있는지 확인합니다.",
             "waf": "신뢰도"
@@ -289,7 +289,7 @@
             "severity": "보통",
             "subcategory": "인터넷",
             "text": "다중 지역 배포를 위해 APIM 앞에서 Azure Front Door 사용Use Azure Front Door in front of APIM for multi-region deployment",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "네트워크 토폴로지 및 연결",
@@ -297,9 +297,9 @@
             "link": "https://learn.microsoft.com/security/benchmark/azure/baselines/api-management-security-baseline?toc=%2Fazure%2Fapi-management%2F&bc=%2Fazure%2Fapi-management%2Fbreadcrumb%2Ftoc.json#virtual-network-integration",
             "service": "APIM",
             "severity": "보통",
-            "subcategory": "안전",
+            "subcategory": "보안",
             "text": "VNet(Virtual Network) 내에 서비스 배포Deploy the service within a Virtual Network (VNet)",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워크 토폴로지 및 연결",
@@ -307,9 +307,9 @@
             "link": "https://learn.microsoft.com/security/benchmark/azure/baselines/api-management-security-baseline?toc=%2Fazure%2Fapi-management%2F&bc=%2Fazure%2Fapi-management%2Fbreadcrumb%2Ftoc.json#network-security-group-support",
             "service": "APIM",
             "severity": "보통",
-            "subcategory": "안전",
+            "subcategory": "보안",
             "text": "서브넷에 NSG(네트워크 보안 그룹)를 배포하여 APIM에서 들어오고 나가는 트래픽을 제한하거나 모니터링합니다.",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워크 토폴로지 및 연결",
@@ -317,19 +317,19 @@
             "link": "https://learn.microsoft.com/security/benchmark/azure/baselines/api-management-security-baseline?toc=%2Fazure%2Fapi-management%2F&bc=%2Fazure%2Fapi-management%2Fbreadcrumb%2Ftoc.json#azure-private-link",
             "service": "APIM",
             "severity": "보통",
-            "subcategory": "안전",
+            "subcategory": "보안",
             "text": "프라이빗 엔드포인트를 배포하여 APIM이 VNet에 배포되지 않은 경우 들어오는 트래픽을 필터링합니다.",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워크 토폴로지 및 연결",
             "guid": "d698adbd-3288-44cb-b10a-9b572da395ae",
             "link": "https://learn.microsoft.com/security/benchmark/azure/baselines/api-management-security-baseline?toc=%2Fazure%2Fapi-management%2F&bc=%2Fazure%2Fapi-management%2Fbreadcrumb%2Ftoc.json#disable-public-network-access",
             "service": "APIM",
-            "severity": "높다",
-            "subcategory": "안전",
+            "severity": "높음",
+            "subcategory": "보안",
             "text": "공용 네트워크 액세스 사용 안 함",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "플랫폼 자동화 및 DevOps",
@@ -372,84 +372,84 @@
             "waf": "작업"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "guid": "b6439493-426a-45f3-9697-cf65baee208d",
             "link": "https://learn.microsoft.com/azure/api-management/api-management-howto-mutual-certificates-for-clients",
             "service": "APIM",
             "severity": "보통",
             "subcategory": "증권 시세 표시기",
             "text": "클라이언트 인증서 인증을 사용하여 API 보안",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "guid": "2a67d143-1033-4c0a-8732-680896478f08",
             "link": "https://learn.microsoft.com/azure/api-management/api-management-howto-mutual-certificates",
             "service": "APIM",
             "severity": "보통",
             "subcategory": "증권 시세 표시기",
             "text": "클라이언트 인증서 인증을 사용한 보안 백엔드 서비스",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "guid": "074435f5-4a46-41ac-b521-d6114cb5d845",
             "link": "https://learn.microsoft.com/azure/api-management/mitigate-owasp-api-threats",
             "service": "APIM",
             "severity": "보통",
             "subcategory": "증권 시세 표시기",
             "text": "'OWASP API 보안 상위 10개 위협을 완화하기 위한 권장 사항' 문서를 검토하고 API에 적용할 수 있는 항목을 확인합니다.",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "guid": "5507c4b8-a7f8-41d6-9661-418c987100c9",
             "link": "https://learn.microsoft.com/azure/api-management/authorizations-overview",
             "service": "APIM",
             "severity": "보통",
             "subcategory": "증권 시세 표시기",
             "text": "권한 부여 기능을 사용하여 백엔드 API에 대한 OAuth 2.0 토큰 관리 간소화",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "guid": "2deee033-b906-4bc2-9f26-c8d3699fe091",
             "link": "https://learn.microsoft.com/azure/api-management/api-management-howto-manage-protocols-ciphers",
             "service": "APIM",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "암호",
             "text": "전송 중인 정보를 암호화할 때 최신 TLS 버전을 사용합니다. 가능한 경우 오래되고 불필요한 프로토콜과 암호를 사용하지 않도록 설정합니다.",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "guid": "f8af3d94-1d2b-4070-846f-849197524258",
             "link": "https://learn.microsoft.com/security/benchmark/azure/baselines/api-management-security-baseline?toc=%2Fazure%2Fapi-management%2F&bc=%2Fazure%2Fapi-management%2Fbreadcrumb%2Ftoc.json#im-8-restrict-the-exposure-of-credential-and-secrets",
             "service": "APIM",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "데이터 보호",
-            "text": "비밀(명명된 값)이 안전하게 액세스하고 업데이트할 수 있도록 Azure Key Vault에 저장되었는지 확인합니다.",
-            "waf": "안전"
+            "text": "비밀(명명된 값)이 보안하게 액세스하고 업데이트할 수 있도록 Azure Key Vault에 저장되었는지 확인합니다.",
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "guid": "791abd8b-7706-4e31-9569-afefde724be3",
             "link": "https://learn.microsoft.com/security/benchmark/azure/baselines/api-management-security-baseline?toc=%2Fazure%2Fapi-management%2F&bc=%2Fazure%2Fapi-management%2Fbreadcrumb%2Ftoc.json#managed-identities",
             "service": "APIM",
             "severity": "보통",
             "subcategory": "아이덴티티",
             "text": "가능할 때마다 관리 ID를 사용하여 다른 Azure 리소스에 인증",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "guid": "220c4ca6-6688-476b-b2b5-425a78e6fb87",
             "link": "https://learn.microsoft.com/security/benchmark/azure/baselines/api-management-security-baseline?toc=%2Fazure%2Fapi-management%2F&bc=%2Fazure%2Fapi-management%2Fbreadcrumb%2Ftoc.json#ns-6-deploy-web-application-firewall",
             "service": "APIM",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "네트워크",
             "text": "APIM 앞에 Application Gateway를 배포하여 WAF(웹 애플리케이션 방화벽) 사용Use Web Application Firewall (WAF) by deploying Application Gateway in of APIM",
-            "waf": "안전"
+            "waf": "보안"
         }
     ],
     "metadata": {
@@ -460,13 +460,13 @@
     },
     "severities": [
         {
-            "name": "높다"
+            "name": "높음"
         },
         {
             "name": "보통"
         },
         {
-            "name": "낮다"
+            "name": "낮음"
         }
     ],
     "status": [
@@ -480,7 +480,7 @@
         },
         {
             "description": "이 검사는 확인되었으며 이와 관련된 추가 작업 항목이 없습니다",
-            "name": "성취"
+            "name": "이행완료"
         },
         {
             "description": "권장 사항은 이해되었지만 현재 요구 사항에 필요하지 않음",
@@ -496,7 +496,7 @@
             "name": "신뢰도"
         },
         {
-            "name": "안전"
+            "name": "보안"
         },
         {
             "name": "비용"
@@ -505,7 +505,7 @@
             "name": "작업"
         },
         {
-            "name": "공연"
+            "name": "성능"
         }
     ],
     "yesno": [
