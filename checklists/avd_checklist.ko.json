@@ -19,7 +19,7 @@
             "name": "모니터링 및 관리"
         },
         {
-            "name": "안전"
+            "name": "보안"
         },
         {
             "name": "비즈니스 연속성 및 재해 복구"
@@ -32,7 +32,7 @@
             "guid": "56c57ba5-9119-4bf8-b8f5-c586c7d9cdc1",
             "id": "A01.01",
             "link": "https://azure.microsoft.com/support/legal/sla/virtual-desktop/v1_0/",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "계산",
             "text": "AVD를 통해 게시된 애플리케이션/데스크톱에 대해 예상되는 고가용성 SLA 확인",
             "waf": "신뢰도"
@@ -54,7 +54,7 @@
             "guid": "10a7da7b-e996-46e1-9d3c-4ada97cc3d13",
             "id": "A01.03",
             "link": "https://docs.microsoft.com/azure/virtual-desktop/disaster-recovery",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "계산",
             "text": "서로 다른 AVD 호스트 풀에서 중요한 애플리케이션 분리",
             "waf": "신뢰도"
@@ -65,7 +65,7 @@
             "guid": "25ab225c-6f4e-4168-9fdd-dea8a4b7cdeb",
             "id": "A01.04",
             "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/announcing-general-availability-of-support-for-azure/ba-p/3636262",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "계산",
             "text": "AVD 호스트 풀 배포를 위한 최상의 복원력 옵션 계획",
             "waf": "신뢰도"
@@ -98,7 +98,7 @@
             "guid": "dd2e0d5d-771d-441e-9610-cc57b4a4a141",
             "id": "A02.01",
             "link": "https://learn.microsoft.com/azure/virtual-machines/azure-compute-gallery",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "종속성",
             "text": "Golden Image 지역 간 가용성 계획",
             "waf": "신뢰도"
@@ -164,7 +164,7 @@
             "guid": "10d4e875-d502-4142-a795-f2b6eff34f88",
             "id": "A03.05",
             "link": "https://learn.microsoft.com/azure/storage/files/files-redundancy#zone-redundant-storage",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "보관",
             "text": "Azure Files용 ZRS(영역 중복 스토리지)를 사용하여 복원력 최대화",
             "waf": "신뢰도"
@@ -186,7 +186,7 @@
             "guid": "86ba2802-1459-4014-95d3-8e5309ccbd97",
             "id": "B01.01",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/set-up-golden-image",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "황금 이미지",
             "text": "애플리케이션이 AVD 호스트 풀에 배포되는 방법 결정",
             "waf": "작업"
@@ -219,7 +219,7 @@
             "guid": "5a2adb2c-3e23-426b-b225-ca44e1696fdd",
             "id": "B01.04",
             "link": "https://learn.microsoft.com/azure/virtual-machines/shared-image-galleries",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "황금 이미지",
             "text": "사용자 지정 이미지에 적합한 저장소 선택",
             "waf": "신뢰도"
@@ -230,7 +230,7 @@
             "guid": "9bd7bb01-2f7b-495e-86e1-54e2aa359282",
             "id": "B01.05",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/create-custom-image-templates",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "황금 이미지",
             "text": "사용자 지정 이미지에 대한 빌드 프로세스 디자인",
             "waf": "작업"
@@ -252,7 +252,7 @@
             "guid": "ed5c9027-dd1a-4343-86ca-52b199223186",
             "id": "B01.07",
             "link": "https://learn.microsoft.com/fslogix/how-to-install-fslogix",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "황금 이미지",
             "text": "골든 이미지 업데이트 프로세스에 최신 버전의 FSLogix 포함",
             "waf": "신뢰도"
@@ -263,10 +263,10 @@
             "guid": "829e3fec-2183-4687-a017-7a2b5945bda4",
             "id": "B01.08",
             "link": "https://github.com/The-Virtual-Desktop-Team/Virtual-Desktop-Optimization-Tool",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "황금 이미지",
             "text": "Virtual-Desktop-Optimization-Tool 사용 평가",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "계산",
@@ -274,7 +274,7 @@
             "guid": "e3d3e084-4276-4d4b-bc01-5bcf219e4a1e",
             "id": "B01.09",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/install-office-on-wvd-master-image#install-onedrive-in-per-machine-mode",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "황금 이미지",
             "text": "Microsoft OneDrive가 AVD 배포의 일부가 될지 확인",
             "waf": "작업"
@@ -285,10 +285,10 @@
             "guid": "b5887953-5d22-4788-9d30-b66c67be5951",
             "id": "B01.10",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/teams-on-AVD",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "황금 이미지",
             "text": "Microsoft Teams가 AVD 배포의 일부가 될지 확인",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "계산",
@@ -296,7 +296,7 @@
             "guid": "7c336f3b-822a-498e-8cd1-667d1150df4a",
             "id": "B01.11",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/windows-11-language-packs",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "황금 이미지",
             "text": "다국어 지원을 위한 요구 사항 평가",
             "waf": "신뢰도"
@@ -310,7 +310,7 @@
             "severity": "보통",
             "subcategory": "MSIX 및 AppAttach",
             "text": "FSLogix 프로필과 동일한 스토리지 계정/공유를 사용하지 마세요.",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "계산",
@@ -321,7 +321,7 @@
             "severity": "보통",
             "subcategory": "MSIX 및 AppAttach",
             "text": "MSIX에 대한 성능 고려 사항 검토",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "계산",
@@ -332,7 +332,7 @@
             "severity": "보통",
             "subcategory": "MSIX 및 AppAttach",
             "text": "MSIX 공유에 대한 적절한 세션 호스트 권한 확인",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "계산",
@@ -340,7 +340,7 @@
             "guid": "bd362caa-ab79-4b19-adab-81932c9fc9d1",
             "id": "B02.04",
             "link": "https://docs.microsoft.com/azure/virtual-desktop/app-attach-faq",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "MSIX 및 AppAttach",
             "text": "제3자 애플리케이션용 MSIX 패키지",
             "waf": "비용"
@@ -351,7 +351,7 @@
             "guid": "bb88037f-5e6b-4fbb-aed5-03547cc447e8",
             "id": "B02.05",
             "link": "https://docs.microsoft.com/azure/virtual-desktop/app-attach-faq",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "MSIX 및 AppAttach",
             "text": "MSIX 패키지에 대한 자동 업데이트 사용 안 함",
             "waf": "작업"
@@ -376,7 +376,7 @@
             "severity": "보통",
             "subcategory": "세션 호스트",
             "text": "호스트 풀 배포를 위한 Gen2 VM 사용량 평가",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "계산",
@@ -384,10 +384,10 @@
             "guid": "adecb27f-dc40-40f5-aca2-0090f633b1c9",
             "id": "B03.02",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/multimedia-redirection",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "세션 호스트",
             "text": "MMR(MultiMedia Redirection)을 사용하여 브라우저에서 더 나은 비디오 성능을 얻는 것이 좋습니다.",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "토대",
@@ -395,7 +395,7 @@
             "guid": "8468c55a-775c-46ee-a5b8-6ad8844ce3b2",
             "id": "C01.01",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/terminology#host-pools",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "용량 계획",
             "text": "사용할 호스트 풀 유형 결정",
             "waf": "비용"
@@ -406,10 +406,10 @@
             "guid": "4e98495f-d3c0-4af2-aa59-a793395a32a7",
             "id": "C01.02",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/terminology?WT.mc_id=Portal-fx#host-pools",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "용량 계획",
             "text": "배포할 다양한 호스트 풀의 수를 예측합니다 ",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "토대",
@@ -417,7 +417,7 @@
             "guid": "b38b875b-a1cf-4204-a901-3a5d3ce474db",
             "id": "C01.03",
             "link": "https://docs.microsoft.com/azure/virtual-desktop/configure-host-pool-personal-desktop-assignment-type",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "용량 계획",
             "text": "개인 호스트 풀 유형에서 적절한 할당 유형을 선택합니다",
             "waf": "작업"
@@ -428,10 +428,10 @@
             "guid": "cbd8682a-6abc-4a2a-9fda-1dbf3dc95d48",
             "id": "C01.04",
             "link": "https://docs.microsoft.com/azure/virtual-desktop/host-pool-load-balancing",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "용량 계획",
             "text": "풀링된 호스트 풀 유형의 경우 최상의 부하 분산 방법을 선택합니다",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "토대",
@@ -442,7 +442,7 @@
             "severity": "보통",
             "subcategory": "용량 계획",
             "text": "풀링된 호스트 풀 유형의 경우 VM에는 32개 이상의 코어가 없어야 합니다.",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "토대",
@@ -450,10 +450,10 @@
             "guid": "b384b7ed-1cdd-457e-a2cd-c8d4d55bc144",
             "id": "C01.06",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/terminology?WT.mc_id=Portal-fx#application-groups",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "용량 계획",
             "text": "동일한 호스트 풀을 사용하여 동일한 사용자 집합에 전체 데스크톱(DAG)과 원격 앱을 모두 제공하지 마세요",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "토대",
@@ -472,7 +472,7 @@
             "guid": "fa9f2895-473d-439b-ab8e-5a5cf92c7f32",
             "id": "C01.08",
             "link": "https://learn.microsoft.com/azure/architecture/example-scenario/wvd/windows-virtual-desktop#considerations",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "용량 계획",
             "text": "각 응용 프로그램 그룹에 대한 응용 프로그램 수 추정",
             "waf": "신뢰도"
@@ -483,7 +483,7 @@
             "guid": "38b19ab6-0693-4992-9394-5590883916ec",
             "id": "C01.09",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/configure-host-pool-personal-desktop-assignment-type?tabs=azure#reassign-a-personal-desktop",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "용량 계획",
             "text": "개인 호스트 풀에 대한 FSLogix 사용량 평가",
             "waf": "신뢰도"
@@ -494,10 +494,10 @@
             "guid": "e1112dbd-7ba0-412e-9b94-ef6e047d2ea2",
             "id": "C01.10",
             "link": "https://docs.microsoft.com/windows-server/remote/remote-desktop-services/virtual-machine-recs",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "용량 계획",
             "text": "워크로드 성능 테스트를 실행하여 사용할 최상의 Azure VM SKU 및 크기 결정",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "토대",
@@ -505,7 +505,7 @@
             "guid": "992b1cd6-d2f5-44b2-a769-e3a691e8838a",
             "id": "C01.11",
             "link": "https://learn.microsoft.com/azure/architecture/example-scenario/wvd/windows-virtual-desktop#considerations",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "용량 계획",
             "text": "환경에 대한 AVD 확장성 제한 확인",
             "waf": "신뢰도"
@@ -516,10 +516,10 @@
             "guid": "c936667e-13c0-4056-94b1-e945a459837e",
             "id": "C01.12",
             "link": "https://docs.microsoft.com/azure/virtual-desktop/configure-vm-gpu",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "용량 계획",
             "text": "세션 호스트에 GPU가 필요한지 확인",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "토대",
@@ -527,10 +527,10 @@
             "guid": "b47a393a-0803-4272-a479-8b1578b219a4",
             "id": "C01.13",
             "link": "https://learn.microsoft.com/azure/virtual-network/accelerated-networking-overview",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "용량 계획",
             "text": "가속화된 네트워킹을 활용할 수 있는 Azure VM SKU 사용",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "토대",
@@ -541,7 +541,7 @@
             "severity": "보통",
             "subcategory": "클라이언트 & 사용자",
             "text": "AVD에 연결할 사용자 수와 리전 평가",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "토대",
@@ -552,7 +552,7 @@
             "severity": "보통",
             "subcategory": "클라이언트 & 사용자",
             "text": "각 호스트 풀에 대한 외부 종속성 평가",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "토대",
@@ -560,10 +560,10 @@
             "guid": "a1f6d565-99e5-458b-a37d-4985e1112dbd",
             "id": "C02.03",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/users/connect-windows",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "클라이언트 & 사용자",
             "text": "사용된 사용자 클라이언트 OS 및 AVD 클라이언트 유형 검토",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "토대",
@@ -571,10 +571,10 @@
             "guid": "d2f54b29-769e-43a6-a1e8-838ac936667e",
             "id": "C02.04",
             "link": "https://azure.microsoft.com/services/virtual-desktop/assessment/",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "클라이언트 & 사용자",
             "text": "PoC를 실행하여 엔드투엔드 사용자 환경 및 네트워크 대기 시간의 영향 검증",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "토대",
@@ -582,10 +582,10 @@
             "guid": "3b365a5c-7acb-4e48-abe5-4cd79f2e8776",
             "id": "C02.05",
             "link": "https://docs.microsoft.com/azure/virtual-desktop/customize-rdp-properties",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "클라이언트 & 사용자",
             "text": "모든 사용자 그룹에 대한 RDP 설정 평가 및 문서화",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "토대",
@@ -593,10 +593,10 @@
             "guid": "42e52f47-21d9-428c-8b1b-d521e44a29a9",
             "id": "C03.01",
             "link": "https://azure.microsoft.com/global-infrastructure/services/?products=virtual-desktop",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "일반",
             "text": "AVD 호스트 풀을 배포할 Azure 지역을 결정합니다.",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "토대",
@@ -615,7 +615,7 @@
             "guid": "8053d89e-89dc-47b3-9be2-a1a27f7a9e91",
             "id": "C03.03",
             "link": "https://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "일반",
             "text": "선택한 지역의 특정 VM 크기 및 유형에 대한 Azure 할당량 및 가용성 확인",
             "waf": "신뢰도"
@@ -673,7 +673,7 @@
             "severity": "보통",
             "subcategory": "액티브 디렉토리",
             "text": "VM을 도메인에 가입시킬 수 있는 권한만 있는 전용 사용자 계정 만들기",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "신원",
@@ -684,7 +684,7 @@
             "severity": "보통",
             "subcategory": "액티브 디렉토리",
             "text": "각 호스트 풀 응용 프로그램 그룹(DAG 또는 RAG)에 대한 액세스 권한을 부여할 각 사용자 집합에 대해 도메인 사용자 그룹을 만듭니다",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "신원",
@@ -692,10 +692,10 @@
             "guid": "2289b3d6-b57c-4fc6-9546-1e1a3e3453a3",
             "id": "D01.07",
             "link": "https://docs.microsoft.com/azure/storage/files/storage-files-identity-ad-ds-enable",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "액티브 디렉토리",
             "text": "Azure Files AD 통합에서 사용하는 계정에 대한 조직 암호 만료 정책 검토",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "신원",
@@ -703,7 +703,7 @@
             "guid": "5119bf8e-8f58-4542-a7d9-cec166cd072a",
             "id": "D01.08",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/prerequisites?tabs=portal#identity",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "액티브 디렉토리",
             "text": "Windows Server Active Directory 포리스트/도메인은 Microsoft Entra ID와 동기화되어야 합니다.",
             "waf": "신뢰도"
@@ -717,7 +717,7 @@
             "severity": "보통",
             "subcategory": "Microsoft Entra ID",
             "text": "Microsoft Entra ID 조인 시나리오에서 Microsoft Entra ID(이전 Azure AD) Kerberos 인증에 대한 Azure Files 공유 구성",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "신원",
@@ -725,7 +725,7 @@
             "guid": "6ceb5443-5125-4922-9442-93bb628537a5",
             "id": "D03.01",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/prerequisites?tabs=portal#identity",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "요구 사항",
             "text": "Microsoft Entra ID 테넌트는 하나 이상의 구독이 연결된 상태에서 사용할 수 있어야 합니다",
             "waf": "신뢰도"
@@ -736,10 +736,10 @@
             "guid": "b4ce4781-7557-4a1f-8043-332ae199d44c",
             "id": "D03.02",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/authentication",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "요구 사항",
             "text": "ID 시나리오 검토 및 문서화",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "신원",
@@ -750,7 +750,7 @@
             "severity": "보통",
             "subcategory": "요구 사항",
             "text": "사용자 계정 유형 및 요구 사항 평가",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "신원",
@@ -769,10 +769,10 @@
             "guid": "ea962a15-9394-46da-a7cc-3923266b2258",
             "id": "D03.05",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/prerequisites?tabs=portal#supported-identity-scenarios",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "요구 사항",
             "text": "적절한 AVD 세션 호스트 도메인 조인 유형 선택",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "신원",
@@ -780,7 +780,7 @@
             "guid": "6f4a1651-bddd-4ea8-a487-cdeb4861bc3b",
             "id": "D03.06",
             "link": "https://docs.microsoft.com/azure/active-directory-domain-services/compare-identity-solutions",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "요구 사항",
             "text": "AVD용 AAD-DS(Azure AD Domain Services)를 사용하기 전에 제한 사항을 검토해야 합니다.",
             "waf": "신뢰도"
@@ -791,7 +791,7 @@
             "guid": "5549524b-36c0-4f1a-892b-ab3ca78f5db2",
             "id": "E01.01",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/administrative-template",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "경영",
             "text": "AVD 설정 구성에 기본 제공 관리 템플릿 사용",
             "waf": "작업"
@@ -802,7 +802,7 @@
             "guid": "3334fdf9-1c23-4418-8b65-285269440b4b",
             "id": "E01.02",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/management",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "경영",
             "text": "AVD 세션 호스트 구성 관리 전략 계획",
             "waf": "작업"
@@ -835,7 +835,7 @@
             "guid": "55f612fe-f215-4f0d-a956-10e7dd96bcbc",
             "id": "E01.05",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/start-virtual-machine-connect",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "경영",
             "text": "개인 호스트 풀에 대한 Connect VM 시작 사용 고려",
             "waf": "비용"
@@ -846,7 +846,7 @@
             "guid": "79a686ea-d971-4ea0-a9a8-1aea074c94cb",
             "id": "E01.06",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/start-virtual-machine-connect-faq#are-vms-automatically-deallocated-when-a-user-stops-using-them",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "경영",
             "text": "개인 AVD 세션 호스트를 종료하기 위한 임시 메커니즘의 구현 평가",
             "waf": "비용"
@@ -857,7 +857,7 @@
             "guid": "51bcafca-476a-48fa-9b91-9645a7679f20",
             "id": "E01.07",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/tag-virtual-desktop-resources",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "경영",
             "text": "Azure Virtual Desktop에 대해 제안된 Azure 태그 검토 및 채택",
             "waf": "비용"
@@ -868,7 +868,7 @@
             "guid": "611dd68c-5a4b-4252-8e44-a59a9c2399c4",
             "id": "E01.08",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/azure-advisor-recommendations",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "경영",
             "text": "AVD에 대한 Azure Advisor 권장 사항을 주기적으로 확인합니다.",
             "waf": "작업"
@@ -890,7 +890,7 @@
             "guid": "c067939b-e5ca-4698-b9ce-3bd91843e73f",
             "id": "E01.10",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/scheduled-agent-updates",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "경영",
             "text": "예약된 에이전트 업데이트 기능 구성",
             "waf": "신뢰도"
@@ -934,7 +934,7 @@
             "guid": "63cfff1c-ac59-49ef-8d5a-83dd4de36c1c",
             "id": "E02.01",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/insights",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "모니터링",
             "text": "AVD 모니터링 사용 설정",
             "waf": "신뢰도"
@@ -992,7 +992,7 @@
             "severity": "보통",
             "subcategory": "네트워킹",
             "text": "각 AVD 호스트 풀에 대한 Azure VNet(Virtual Network) 배치 결정",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "네트워킹",
@@ -1014,7 +1014,7 @@
             "severity": "보통",
             "subcategory": "네트워킹",
             "text": "AVD 호스트의 인터넷 아웃바운드 트래픽을 제어/제한해야 하나요?",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워킹",
@@ -1022,7 +1022,7 @@
             "guid": "65c7acbe-45bb-4e60-ad89-f2e87778424d",
             "id": "F01.05",
             "link": "https://docs.microsoft.com/azure/virtual-desktop/safe-url-list",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "네트워킹",
             "text": "AVD 컨트롤 플레인 엔드포인트에 액세스할 수 있는지 확인",
             "waf": "신뢰도"
@@ -1036,7 +1036,7 @@
             "severity": "보통",
             "subcategory": "네트워킹",
             "text": "AVD 호스트의 사용자에 대해서만 인터넷 아웃바운드 트래픽을 제어/제한해야 하나요? ",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워킹",
@@ -1044,10 +1044,10 @@
             "guid": "523181a9-4174-4158-93ff-7ae7c6d37431",
             "id": "F01.07",
             "link": "https://docs.microsoft.com/azure/firewall/protect-windows-virtual-desktop",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "네트워킹",
             "text": "AVD 호스트 풀 서브넷에 대한 사용자 지정 UDR 및 NSG 검토",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워킹",
@@ -1055,7 +1055,7 @@
             "guid": "cc6edca0-aeca-4566-9e92-cf246f1465af",
             "id": "F01.08",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/proxy-server-support",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "네트워킹",
             "text": "AVD 컨트롤 플레인 트래픽에 프록시 서버, SSL 종료 및 Deep Packet Inspection을 사용하지 마십시오.",
             "waf": "신뢰도"
@@ -1066,10 +1066,10 @@
             "guid": "516785c6-fa96-4c96-ad88-408f372734c8",
             "id": "F01.09",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/rdp-bandwidth",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "네트워킹",
             "text": "각 사용자에게 필요한 네트워크 대역폭과 VM SKU에 대한 총 네트워크 대역폭을 확인합니다.",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "네트워킹",
@@ -1080,7 +1080,7 @@
             "severity": "보통",
             "subcategory": "네트워킹",
             "text": "Azure Files 공유에 대한 사용량 프라이빗 엔드포인트 평가",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워킹",
@@ -1091,10 +1091,10 @@
             "severity": "보통",
             "subcategory": "네트워킹",
             "text": "관리되는 내부 네트워크에서 연결하는 클라이언트에 대한 RDP ShortPath 사용 평가",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "description": "사용 가능한 경우 GPO에서 제공하는 보안 메커니즘을 사용해야 합니다. 예를 들어 데스크톱 화면 잠금 및 유휴 세션 연결 끊김 시간을 부과할 수 있습니다. 온프레미스 환경에 적용된 기존 GPO를 검토하고 도메인에 가입할 때 AVD 호스트도 보호하기 위해 적용해야 합니다.",
             "guid": "a135e337-897e-431c-97d6-8cb6a22ac19f",
             "id": "G01.01",
@@ -1102,32 +1102,32 @@
             "severity": "보통",
             "subcategory": "액티브 디렉토리",
             "text": "Active Directory GPO를 검토하여 RDP 세션 보호",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "description": "엔드포인트용 Microsoft Defender Windows 10/11 Enterprise 다중 세션용 Azure Virtual Desktop을 지원합니다. 비영구 VDI(가상 데스크톱 인프라) 디바이스 온보딩에 대한 문서 확인: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints-vdi",
             "guid": "b1172576-9ef6-4691-a483-5ac932223ece",
             "id": "G02.01",
             "link": "https://learn.microsoft.com/microsoft-365/security/defender-endpoint/deployment-vdi-microsoft-defender-antivirus",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "호스트 구성",
             "text": "바이러스 백신 및 맬웨어 방지 솔루션이 사용되는지 확인",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "description": "Azure의 디스크는 기본적으로 Microsoft 관리형 키를 사용하여 미사용 시 이미 암호화되어 있습니다. 호스트 VM OS 디스크 암호화는 ADE - BitLocker(Azure Disk Encryption) 및 DES - 서버 쪽 암호화(Disk Encryption Set)를 사용하여 가능하며 지원되는 경우 후자를 사용하는 것이 좋습니다. Azure Files를 사용한 FSLogix 스토리지의 암호화는 Azure Storage의 SSE를 사용하여 수행할 수 있습니다. OneDrive 암호화에 대한 자세한 내용은 https://docs.microsoft.com/compliance/assurance/assurance-encryption-for-microsoft-365-services 문서를 참조하세요.",
             "guid": "0fd32907-98bc-4178-adc5-a06ca7144351",
             "id": "G02.02",
             "link": "https://learn.microsoft.com/azure/virtual-machines/disk-encryption-overview",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "호스트 구성",
             "text": "AVD 세션 호스트에 대한 디스크 암호화 요구 사항 평가",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "description": "신뢰할 수 있는 시작은 루트킷, 부팅 키트 및 커널 수준 맬웨어와 같은 공격 벡터를 통해 스택 하단 위협으로부터 보호하기 위한 향상된 보안 기능을 갖춘 Gen2 Azure VM입니다. 보안 부팅, vTPM(가상 TPM) 및 무결성 모니터링을 사용하도록 설정하고 활용하는 것이 좋습니다.",
             "guid": "36a5a67f-bb9e-4d5b-9547-8c4479816b28",
             "id": "G02.03",
@@ -1135,43 +1135,43 @@
             "severity": "보통",
             "subcategory": "호스트 구성",
             "text": "Azure Gen2 VM 세션 호스트에서 신뢰할 수 있는 시작 사용Enable Trusted launch in Azure Gen2 VM Session Hosts",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "description": "신뢰할 수 있는 시작 및 Gen2 VM은 보안 및 성능 향상 기능일 뿐만 아니라 Windows 11의 시스템 요구 사항이기도 합니다. Windows 11 기반 AVD 환경을 빌드할 때 이러한 기능을 활성화하는 것이 중요합니다.",
             "guid": "135d3899-4b31-44d3-bc8f-028871a359d8",
             "id": "G02.04",
             "link": "https://learn.microsoft.com/windows/whats-new/windows-11-requirements",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "호스트 구성",
             "text": "신뢰할 수 있는 시작 사용 및 Gen2 이미지 사용은 Windows 11의 시스템 요구 사항입니다.",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "description": "표시된 콘텐츠는 스크린샷에서 자동으로 차단되거나 숨겨집니다. 화면 공유를 사용하는 Teams 또는 기타 협업 소프트웨어를 사용할 때도 화면 공유가 차단됩니다.",
             "guid": "a49dc137-7896-4343-b2bc-1a31bf1d30b6",
             "id": "G02.05",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/screen-capture-protection",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "호스트 구성",
             "text": "중요한 정보가 캡처되지 않도록 화면 캡처 보호를 사용하도록 설정하는 것이 좋습니다.",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
-            "description": "반드시 필요한 것은 아닌 경우 원격 데스크톱 세션에서 드라이브, 프린터 및 USB 디바이스를 사용자의 로컬 디바이스로 리디렉션하는 것을 사용하지 않도록 설정하거나 매우 제한해야 합니다. 로컬 및 원격 드라이브 매핑을 숨겨 Windows 탐색기 액세스를 제한하는 것도 사용자가 시스템 구성 및 사용자에 대한 원치 않는 정보를 검색하지 못하도록 하는 안전한 방법입니다.",
+            "category": "보안",
+            "description": "반드시 필요한 것은 아닌 경우 원격 데스크톱 세션에서 드라이브, 프린터 및 USB 디바이스를 사용자의 로컬 디바이스로 리디렉션하는 것을 사용하지 않도록 설정하거나 매우 제한해야 합니다. 로컬 및 원격 드라이브 매핑을 숨겨 Windows 탐색기 액세스를 제한하는 것도 사용자가 시스템 구성 및 사용자에 대한 원치 않는 정보를 검색하지 못하도록 하는 보안한 방법입니다.",
             "guid": "7ce2cd20-85b4-4f82-828e-6558736ede6a",
             "id": "G02.06",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/security-guide#other-security-tips-for-session-hosts",
             "severity": "보통",
             "subcategory": "호스트 구성",
             "text": "장치 리디렉션 및 드라이브 매핑 제한Restrict device redirection and drive mapping",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "description": "배포 모델을 선택할 때 원격 사용자에게 전체 가상 데스크톱에 대한 액세스 권한을 제공하거나 응용 프로그램만 선택할 수 있습니다. 원격 응용 프로그램 또는 RemoteApps는 사용자가 가상 데스크톱에서 앱을 사용할 때 원활한 환경을 제공합니다. RemoteApps는 사용자가 응용 프로그램에 의해 노출된 원격 컴퓨터의 하위 집합으로만 작업할 수 있도록 하여 위험을 줄입니다.",
             "guid": "4e25d70e-3924-44f4-b66f-d6cdd4f4a973",
             "id": "G03.01",
@@ -1179,10 +1179,10 @@
             "severity": "보통",
             "subcategory": "경영",
             "text": "가능하면 DAG(전체 데스크톱)보다 원격 앱을 선호합니다.",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "description": "엔드포인트용 Microsoft Defender 웹 보호 기능에서 제공하는 웹 콘텐츠 필터링 기능을 사용하여 사용자 웹 탐색을 제어할 수 있습니다. 이 도구를 사용하는 경우 사용자 인터넷 검색에 대한 웹 필터링을 구성하는 것이 좋습니다. 게스트 OS 시스템에서 필요한 AVD 컨트롤 플레인 URL에 액세스할 수 있어야 합니다.",
             "guid": "e19dd344-29eb-4722-a237-a151c5bb4e4f",
             "id": "G03.02",
@@ -1190,21 +1190,21 @@
             "severity": "보통",
             "subcategory": "경영",
             "text": "AVD 세션 호스트에서 사용자 인터넷 탐색을 제어/제한해야 하나요?",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "description": "사용자에게 가상 데스크톱에 대한 관리자 액세스 권한을 부여하지 않는 것이 좋습니다. 소프트웨어 패키지가 필요한 경우 구성 관리 유틸리티를 통해 사용할 수 있도록 하는 것이 좋습니다.",
             "guid": "a0cdb3b5-4eb2-4eb0-9dda-a3592718e2ed",
             "id": "G03.03",
             "link": "https://docs.microsoft.com/azure/virtual-desktop/security-guide",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "경영",
             "text": "AVD 사용자가 AVD 호스트에 대한 로컬 관리자 권한을 갖지 않는지 확인",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "description": "AVD에서 사용하는 구독, 가상 머신, 키 자격 증명 모음 및 스토리지 계정에 대해 클라우드용 Defender를 사용하도록 설정하는 것이 좋습니다. 이 도구를 사용하면 취약점을 평가 및 관리하고, PCI와 같은 일반적인 프레임워크의 규정 준수를 평가하고, AVD 환경의 전반적인 보안을 강화하고, '보안 점수'를 사용하여 시간 경과에 따라 측정할 수 있습니다. https://learn.microsoft.com/azure/virtual-desktop/security-guide#improve-your-secure-score.",
             "guid": "1814387e-5ca9-4c26-a9b3-2ab5bdfc6998",
             "id": "G03.04",
@@ -1212,10 +1212,10 @@
             "severity": "보통",
             "subcategory": "경영",
             "text": "클라우드용 Microsoft Defender를 사용하여 AVD 세션 호스트 보안 태세를 관리할 수 있습니다.",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "description": "감사 로그 수집을 사용하도록 설정하면 Azure Virtual Desktop과 관련된 사용자 및 관리자 활동을 보고 Log Analytics 작업 영역과 같은 중앙 리포지토리에 저장할 수 있습니다. ",
             "guid": "a0916a76-4980-4ad0-b278-ee293c1bc352",
             "id": "G03.05",
@@ -1223,21 +1223,21 @@
             "severity": "보통",
             "subcategory": "경영",
             "text": "진단 및 감사 로깅 사용Enable diagnostic and audit logging",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "description": "Azure RBAC 역할에 관리, 운영 및 엔지니어링 역할을 정의하여 필요한 최소 권한을 할당합니다. Azure Virtual Desktop 랜딩 존 내에서 높은 권한 역할에 대한 액세스를 제한하려면 Azure PIM(Privileged Identity Management)과의 통합을 고려합니다. 각 특정 관리 영역을 담당하는 팀에 대한 지식을 유지 관리하면 Azure RBAC(역할 기반 액세스 제어) 역할 및 구성을 결정하는 데 도움이 됩니다.",
             "guid": "baaab757-1849-4ab8-893d-c9fc9d1bb73b",
             "id": "G03.06",
             "link": "https://docs.microsoft.com/azure/virtual-desktop/rbac",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "경영",
             "text": "AVD 관리에 맞춤 RBAC 역할을 사용하기 위한 요구사항 평가",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "description": "AVD 사용자는 애플리케이션을 설치할 수 있는 권한이 없어야 합니다. 필요한 경우 WDAC(Windows Defender 애플리케이션 제어)를 사용하여 Windows 클라이언트에서 실행할 수 있는 드라이버 및 애플리케이션을 제어할 수 있습니다. ",
             "guid": "b9ea80c8-0628-49fc-ae63-125aa4c0a284",
             "id": "G03.07",
@@ -1245,10 +1245,10 @@
             "severity": "보통",
             "subcategory": "경영",
             "text": "사용자가 승인되지 않은 응용 프로그램을 설치하지 못하도록 제한",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "description": "MFA 및 CA를 사용 설정하면 사용자에게 AVD 환경에 대한 액세스 권한을 부여하기 전에 위험을 관리할 수 있습니다. 액세스 권한을 부여할 사용자를 결정할 때 사용자가 누구인지, 로그인 방법, 사용 중인 기기도 고려하는 것이 좋습니다. 추가 세부 정보 및 구성 절차는 관련 문서에 나와 있습니다. Microsoft Entra ID는 Azure AD(Azure Active Directory)의 새 이름입니다.",
             "guid": "916d697d-8ead-4ed2-9bdd-186f1ac252b9",
             "id": "G04.01",
@@ -1256,10 +1256,10 @@
             "severity": "보통",
             "subcategory": "Microsoft Entra ID",
             "text": "AVD 사용자에 대한 다단계 인증(MFA) 및 조건부 액세스(CA) 사용 평가",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "description": "제로 트러스트가 요구 사항인 경우 '추가 정보' 열의 동반 문서를 검토하세요. 제로 트러스트 원칙을 Azure Virtual Desktop 배포에 적용하는 단계를 제공합니다.",
             "guid": "221102d0-90af-49fc-b2b7-8d3fe397e43",
             "id": "G05.01",
@@ -1267,7 +1267,7 @@
             "severity": "보통",
             "subcategory": "제로 트러스트",
             "text": "Zero Trust 원칙 및 지침 검토 및 적용",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "보관",
@@ -1278,7 +1278,7 @@
             "severity": "보통",
             "subcategory": "Azure 파일",
             "text": "Azure Files에 대한 모범 사례 확인",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "보관",
@@ -1286,10 +1286,10 @@
             "guid": "5784b6ca-5e9e-4bcf-8b54-c95459ea7369",
             "id": "H01.02",
             "link": "https://learn.microsoft.com/azure/storage/files/storage-files-smb-multichannel-performance",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "Azure 파일",
             "text": "프리미엄 파일 공유를 사용하여 FSLogix 프로필 컨테이너를 호스트하는 경우 SMB 다중 채널을 사용하도록 설정합니다.",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "보관",
@@ -1319,7 +1319,7 @@
             "guid": "6647e977-db49-48a8-bc35-743f17499d42",
             "id": "H02.03",
             "link": "https://docs.microsoft.com/azure/azure-netapp-files/create-active-directory-connections",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "Azure NetApp Files",
             "text": "Azure NetApp Files 스토리지를 사용하는 경우 Active Directory 연결 구성에서 Active Directory 사이트 이름 설정을 확인합니다",
             "waf": "신뢰도"
@@ -1333,7 +1333,7 @@
             "severity": "보통",
             "subcategory": "용량 계획",
             "text": "세션 호스트에 사용할 관리 디스크 유형 결정",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "보관",
@@ -1341,10 +1341,10 @@
             "guid": "ed6b17db-8255-4462-b2ae-e4553afc8339",
             "id": "H03.02",
             "link": "https://docs.microsoft.com/azure/virtual-desktop/store-fslogix-profile",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "용량 계획",
             "text": "FSLogix 프로필에 사용할 스토리지 백 엔드 솔루션 결정",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "보관",
@@ -1352,10 +1352,10 @@
             "guid": "2fad62bd-5004-453c-ace4-64d862e7f5a4",
             "id": "H03.03",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/store-fslogix-profile",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "용량 계획",
             "text": "서로 다른 호스트 풀 간에 스토리지 및 프로필을 공유하지 마십시오.",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "보관",
@@ -1363,7 +1363,7 @@
             "guid": "680e7828-9c93-4665-9d02-bff4564b0d93",
             "id": "H03.04",
             "link": "https://learn.microsoft.com/azure/virtual-desktop/faq#what-s-the-largest-profile-size-fslogix-can-handle-",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "용량 계획",
             "text": "스토리지 확장성 제한 및 호스트 풀 요구 사항 확인",
             "waf": "신뢰도"
@@ -1374,10 +1374,10 @@
             "guid": "8aad53cc-79e2-4e86-9673-57c549675c5e",
             "id": "H03.05",
             "link": "https://docs.microsoft.com/azure/virtual-desktop/fslogix-containers-azure-files",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "용량 계획",
             "text": "최적의 성능을 위해 스토리지 솔루션과 FSLogix 프로필 컨테이너는 동일한 Azure 지역에 있어야 합니다.",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "보관",
@@ -1385,7 +1385,7 @@
             "guid": "df47d2d9-2881-4b1c-b5d1-e54a29759e39",
             "id": "H04.01",
             "link": "https://learn.microsoft.com/fslogix/concepts-container-types#when-to-use-profile-and-odfc-containers",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "에프에스로직스",
             "text": "엄격하게 요구되고 정당화되지 않는 경우 ODFC(Office Container)를 사용하지 마세요.",
             "waf": "신뢰도"
@@ -1399,7 +1399,7 @@
             "severity": "보통",
             "subcategory": "에프에스로직스",
             "text": "FSLogix에 대한 권장 바이러스 백신 제외를 구성합니다(연결 시 VHD(x) 파일을 검사하지 않는 것 포함).",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "보관",
@@ -1407,7 +1407,7 @@
             "guid": "01e6a84d-e5df-443d-8992-481718d5d1e5",
             "id": "H04.03",
             "link": "https://docs.microsoft.com/fslogix/profile-container-configuration-reference",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "에프에스로직스",
             "text": "FSLogix에서 구성된 최대 프로필 크기 검토 및 확인",
             "waf": "비용"
@@ -1418,7 +1418,7 @@
             "guid": "d34aad5e-8c78-4e1d-9666-7313c405674c",
             "id": "H04.04",
             "link": "https://learn.microsoft.com/fslogix/concepts-configuration-examples",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "에프에스로직스",
             "text": "FSLogix 레지스트리 키를 검토하고 적용할 레지스트리 키 결정",
             "waf": "신뢰도"
@@ -1429,7 +1429,7 @@
             "guid": "5e985b85-9c77-43e7-b261-623b775a917e",
             "id": "H04.05",
             "link": "https://learn.microsoft.com/fslogix/concepts-multi-concurrent-connections",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "에프에스로직스",
             "text": "동시 또는 다중 연결 사용 방지",
             "waf": "신뢰도"
@@ -1440,10 +1440,10 @@
             "guid": "b2d1215a-e114-4ba3-9df5-85ecdcd9bd3b",
             "id": "H04.06",
             "link": "https://docs.microsoft.com/fslogix/cloud-cache-configuration-reference",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "에프에스로직스",
             "text": "FSLogix Cloud Cache를 사용하는 경우 캐시 디렉터리를 VM 임시 드라이브로 이동하는 것이 좋습니다.",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "보관",
@@ -1464,13 +1464,13 @@
     },
     "severities": [
         {
-            "name": "높다"
+            "name": "높음"
         },
         {
             "name": "보통"
         },
         {
-            "name": "낮다"
+            "name": "낮음"
         }
     ],
     "status": [
@@ -1484,7 +1484,7 @@
         },
         {
             "description": "이 검사는 확인되었으며 이와 관련된 추가 작업 항목이 없습니다",
-            "name": "성취"
+            "name": "이행완료"
         },
         {
             "description": "권장 사항은 이해되었지만 현재 요구 사항에 필요하지 않음",
@@ -1500,7 +1500,7 @@
             "name": "신뢰도"
         },
         {
-            "name": "안전"
+            "name": "보안"
         },
         {
             "name": "비용"
@@ -1509,7 +1509,7 @@
             "name": "작업"
         },
         {
-            "name": "공연"
+            "name": "성능"
         }
     ],
     "yesno": [
