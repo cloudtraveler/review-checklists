@@ -13,7 +13,7 @@
             "name": "네트워킹"
         },
         {
-            "name": "안전"
+            "name": "보안"
         },
         {
             "name": "모니터링"
@@ -159,7 +159,7 @@
             "severity": "보통",
             "subcategory": "직접(vWAN 없음, H&S 없음)",
             "text": "ExR 회로에 대한 글로벌 도달 범위 - Azure 리소스 없음",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "인터넷",
@@ -170,7 +170,7 @@
             "severity": "보통",
             "subcategory": "익스프레스라우트(ExpressT",
             "text": "ExR을 사용하여 Azure에 연결",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "인터넷",
@@ -181,7 +181,7 @@
             "severity": "보통",
             "subcategory": "익스프레스라우트(ExpressT",
             "text": "대역폭 크기 조정",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "인터넷",
@@ -192,7 +192,7 @@
             "severity": "보통",
             "subcategory": "익스프레스라우트(ExpressT",
             "text": "트래픽 라우팅 ",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "인터넷",
@@ -203,7 +203,7 @@
             "severity": "보통",
             "subcategory": "익스프레스라우트(ExpressT",
             "text": "글로벌 도달 범위 ",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "인터넷",
@@ -214,7 +214,7 @@
             "severity": "보통",
             "subcategory": "허브 & 스포크(Hub & Spoke)",
             "text": "VNet 이름 & 주소 공간VNet name & address space",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "인터넷",
@@ -225,7 +225,7 @@
             "severity": "보통",
             "subcategory": "허브 & 스포크(Hub & Spoke)",
             "text": "게이트웨이 서브넷",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "인터넷",
@@ -236,7 +236,7 @@
             "severity": "보통",
             "subcategory": "허브 & 스포크(Hub & Spoke)",
             "text": "VPN 게이트웨이",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "인터넷",
@@ -247,7 +247,7 @@
             "severity": "보통",
             "subcategory": "허브 & 스포크(Hub & Spoke)",
             "text": "ExR 게이트웨이",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "인터넷",
@@ -258,7 +258,7 @@
             "severity": "보통",
             "subcategory": "인터넷",
             "text": "송신 지점",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "인터넷",
@@ -269,7 +269,7 @@
             "severity": "보통",
             "subcategory": "점프박스 & 바스티온",
             "text": "AVS에 대한 원격 연결",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "인터넷",
@@ -280,18 +280,18 @@
             "severity": "보통",
             "subcategory": "점프박스 & 바스티온",
             "text": "점박스 및 Azure Bastion 구성",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "인터넷",
-            "description": "포털을 통해 VM에 직접 안전하고 원활한 RDP/SSH 연결을 제공합니다.",
+            "description": "포털을 통해 VM에 직접 보안하고 원활한 RDP/SSH 연결을 제공합니다.",
             "guid": "ba430d58-4541-085c-3641-068c00be9bc5",
             "id": "B05.03",
             "link": "https://learn.microsoft.com/azure/virtual-network/network-security-groups-overview",
             "severity": "보통",
             "subcategory": "점프박스 & 바스티온",
             "text": "포털을 통한 RDP 액세스를 허용하는 보안 조치",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "인터넷",
@@ -302,7 +302,7 @@
             "severity": "보통",
             "subcategory": "VPN (영문)",
             "text": "VPN을 사용하여 Azure에 연결",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "인터넷",
@@ -313,7 +313,7 @@
             "severity": "보통",
             "subcategory": "VPN (영문)",
             "text": "대역폭 크기 조정",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "인터넷",
@@ -324,7 +324,7 @@
             "severity": "보통",
             "subcategory": "VPN (영문)",
             "text": "트래픽 라우팅 ",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "인터넷",
@@ -335,7 +335,7 @@
             "severity": "보통",
             "subcategory": "vWAN 허브",
             "text": "vWAN 이름, 허브 이름 및 주소 공간",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "인터넷",
@@ -346,7 +346,7 @@
             "severity": "보통",
             "subcategory": "vWAN 허브",
             "text": "ExR 및/또는 VPN 게이트웨이 프로비저닝",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "인터넷",
@@ -357,7 +357,7 @@
             "severity": "보통",
             "subcategory": "vWAN 허브",
             "text": "보안 vWAN",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "신원",
@@ -368,7 +368,7 @@
             "severity": "보통",
             "subcategory": "접근",
             "text": "외부 ID(사용자 계정)",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "신원",
@@ -379,29 +379,29 @@
             "severity": "보통",
             "subcategory": "접근",
             "text": "AD 도메인을 사용하는 경우 사이트 및 서비스가 구성되었는지 확인합니다.",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "신원",
-            "description": "사용자에 대한 인증은 안전해야 합니다.",
+            "description": "사용자에 대한 인증은 보안해야 합니다.",
             "guid": "c30749c4-e2af-558c-2eb9-0b6ae84881d1",
             "id": "C01.03",
             "link": "https://learn.microsoft.com/azure/azure-vmware/configure-identity-source-vcenter",
             "severity": "보통",
             "subcategory": "접근",
             "text": "ldap가 아닌 LDAPS 사용(vCenter)",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "신원",
-            "description": "사용자에 대한 인증은 안전해야 합니다.",
+            "description": "사용자에 대한 인증은 보안해야 합니다.",
             "guid": "64cb9b5c-9edd-787e-1dd8-2b2338e51635",
             "id": "C01.04",
             "link": "https://learn.microsoft.com/azure/azure-vmware/configure-external-identity-source-nsx-t",
             "severity": "보통",
             "subcategory": "접근",
             "text": "LDAP가 아닌 LDAPS 사용(NSX-T)",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "신원",
@@ -410,9 +410,9 @@
             "id": "C02.01",
             "link": "https://youtu.be/4jvfbsrhnEs",
             "severity": "보통",
-            "subcategory": "안전",
+            "subcategory": "보안",
             "text": "LDAPS 서버에 설치된 보안 인증서 ",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "신원",
@@ -421,9 +421,9 @@
             "id": "C02.02",
             "link": "https://learn.microsoft.com/azure/azure-vmware/concepts-identity",
             "severity": "보통",
-            "subcategory": "안전",
+            "subcategory": "보안",
             "text": "Azure 역할에 적용된 RBAC",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "신원",
@@ -432,9 +432,9 @@
             "id": "C02.03",
             "link": "https://learn.microsoft.com/azure/azure-vmware/concepts-identity#view-the-vcenter-server-privileges",
             "severity": "보통",
-            "subcategory": "안전",
+            "subcategory": "보안",
             "text": "vCenter의 RBAC 모델",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "신원",
@@ -443,9 +443,9 @@
             "id": "C02.04",
             "link": "Best practice",
             "severity": "보통",
-            "subcategory": "안전",
+            "subcategory": "보안",
             "text": "CloudAdmin 역할 사용",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "신원",
@@ -454,9 +454,9 @@
             "id": "C03.01",
             "link": "https://learn.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure",
             "severity": "보통",
-            "subcategory": "안전 ",
+            "subcategory": "보안 ",
             "text": "Privileged Identity Management가 구현되어 있습니까?",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "신원",
@@ -465,9 +465,9 @@
             "id": "C03.02",
             "link": "https://learn.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure",
             "severity": "보통",
-            "subcategory": "안전 ",
+            "subcategory": "보안 ",
             "text": "Privileged Identity Management 감사 보고가 구현되어 있습니까?",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "신원",
@@ -476,9 +476,9 @@
             "id": "C03.03",
             "link": "Best practice",
             "severity": "보통",
-            "subcategory": "안전 ",
+            "subcategory": "보안 ",
             "text": "CloudAdmin 계정 사용을 응급 액세스로만 제한Limit of CloudAdmin account with emergency access only",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "신원",
@@ -487,9 +487,9 @@
             "id": "C03.04",
             "link": "https://learn.microsoft.com/azure/azure-vmware/rotate-cloudadmin-credentials?tabs=azure-portal",
             "severity": "보통",
-            "subcategory": "안전 ",
+            "subcategory": "보안 ",
             "text": "cloudadmin(vCenter) 및 admin(NSX) 자격 증명을 정기적으로 교체하도록 정의된 프로세스입니다",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "경영",
@@ -696,7 +696,7 @@
             "id": "E08.01",
             "link": "Firewall logging and alerting rules are configured (Azure Firewall or 3rd party)",
             "severity": "보통",
-            "subcategory": "안전",
+            "subcategory": "보안",
             "text": "감사 및 로깅은 인바운드 인터넷에 대해 구현됩니다. ",
             "waf": "작업"
         },
@@ -707,7 +707,7 @@
             "id": "E08.02",
             "link": "https://docs.microsoft.com/azure/cloud-adoption-framework/scenarios/azure-vmware/eslz-network-topology-connectivity",
             "severity": "보통",
-            "subcategory": "안전",
+            "subcategory": "보안",
             "text": "세션 모니터링  ",
             "waf": "작업"
         },
@@ -742,7 +742,7 @@
             "severity": "보통",
             "subcategory": "허브 & 스포크(Hub & Spoke)",
             "text": "Az Firewall 또는 제3자를 통한 북쪽/남쪽 라우팅North/South routing through Az Firewall or 3rd party ",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워킹",
@@ -753,7 +753,7 @@
             "severity": "보통",
             "subcategory": "허브 & 스포크(Hub & Spoke)",
             "text": "동서부(Azure 내부)",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워킹",
@@ -786,7 +786,7 @@
             "severity": "보통",
             "subcategory": "인터넷",
             "text": "송신 지점",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워킹",
@@ -797,7 +797,7 @@
             "severity": "보통",
             "subcategory": "인터넷",
             "text": "인터넷 연결 응용 프로그램",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워킹",
@@ -808,7 +808,7 @@
             "severity": "보통",
             "subcategory": "라우팅",
             "text": "경로 서버 경로 제한을 이해한 경우? ",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워킹",
@@ -817,9 +817,9 @@
             "id": "F04.01",
             "link": "https://docs.microsoft.com/azure/ddos-protection/manage-ddos-protection",
             "severity": "보통",
-            "subcategory": "안전",
+            "subcategory": "보안",
             "text": "공용 IP 주소에 대한 DDoS 표준 보호가 있습니까?  ",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워킹",
@@ -828,9 +828,9 @@
             "id": "F04.02",
             "link": "Best practice: Bastion or 3rd party tool",
             "severity": "보통",
-            "subcategory": "안전",
+            "subcategory": "보안",
             "text": "전용 PAW(Privileged Access Workstation) 사용",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워킹",
@@ -841,7 +841,7 @@
             "severity": "보통",
             "subcategory": "교통 점검",
             "text": "이스트 웨스트(AVS 내부)",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워킹",
@@ -852,7 +852,7 @@
             "severity": "보통",
             "subcategory": "가상 WAN",
             "text": "Secure Hub(Azure Firewall 또는 제3자) 사용Use Secure Hub (Azure Firewall or 3rd party)",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워킹",
@@ -863,7 +863,7 @@
             "severity": "보통",
             "subcategory": "가상 WAN",
             "text": "동서부(Azure 내부)",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "기타 서비스/운영",
@@ -874,7 +874,7 @@
             "severity": "보통",
             "subcategory": "자동화된 스케일",
             "text": "규모 확장 운영 계획",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "기타 서비스/운영",
@@ -885,7 +885,7 @@
             "severity": "보통",
             "subcategory": "자동화된 스케일",
             "text": "운영 계획의 규모 확대",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "기타 서비스/운영",
@@ -896,7 +896,7 @@
             "severity": "보통",
             "subcategory": "자동화된 스케일",
             "text": "직렬화된 작업 계획 크기 조정",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "기타 서비스/운영",
@@ -907,7 +907,7 @@
             "severity": "보통",
             "subcategory": "자동화된 스케일",
             "text": "RD 운영 계획 확장",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "기타 서비스/운영",
@@ -918,7 +918,7 @@
             "severity": "보통",
             "subcategory": "자동화된 스케일",
             "text": "최대 운영 계획 확장",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "기타 서비스/운영",
@@ -929,7 +929,7 @@
             "severity": "보통",
             "subcategory": "자동화된 스케일",
             "text": "크기 조정 작업 모니터링 ",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "기타 서비스/운영",
@@ -940,7 +940,7 @@
             "severity": "보통",
             "subcategory": "네트워킹",
             "text": "프라이빗 링크",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "기타 서비스/운영",
@@ -951,7 +951,7 @@
             "severity": "보통",
             "subcategory": "네트워킹",
             "text": "VMware VLAN 프로비저닝",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "계획",
@@ -1072,7 +1072,7 @@
             "severity": "보통",
             "subcategory": "배포 전",
             "text": "AVS SKU(지역에 따라 다름)",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "계획",
@@ -1083,7 +1083,7 @@
             "severity": "보통",
             "subcategory": "배포 전",
             "text": "배포할 호스트 수",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "계획",
@@ -1105,7 +1105,7 @@
             "severity": "보통",
             "subcategory": "배포 전",
             "text": "용량 ",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "계획",
@@ -1130,7 +1130,7 @@
             "waf": "신뢰도"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "description": "게스트 내 암호화를 사용하는 경우 가능하면 Azure Key Vault에 암호화 키를 저장합니다",
             "guid": "70cfbddc-d3d4-9188-77c8-1cabaefef646",
             "id": "I01.01",
@@ -1138,10 +1138,10 @@
             "severity": "보통",
             "subcategory": "암호화",
             "text": "게스트 내 암호화와 함께 Azure Key Vault 사용Use Azure Key Vault with in-guest encryption ",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "description": "Azure VMware Solution 워크로드가 런타임 중에 충분한 데이터 암호화(예: 게스트 내 디스크 암호화 및 SQL TDE)를 사용하는지 확인합니다. (유휴 시 vSAN 암호화가 기본값임)",
             "guid": "c1a81638-18df-0ce9-a73a-4b9a8a8dd392",
             "id": "I01.02",
@@ -1149,10 +1149,10 @@
             "severity": "보통",
             "subcategory": "암호화",
             "text": "게스트 내 암호화 사용",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "description": "Azure VMware Solution 및 ExpressRoute를 배포하는 데 별도의 서비스 원칙을 사용하는 경우 Key Vault를 사용하여 비밀 및 권한 부여 키를 저장합니다",
             "guid": "8d0a8f51-8d35-19cd-c2fe-4e3512fb467e",
             "id": "I01.03",
@@ -1160,10 +1160,10 @@
             "severity": "보통",
             "subcategory": "암호화",
             "text": "비밀에 대한 Keyvault 사용",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "description": "Azure VMware Solution 실행되는 워크로드에 대해 구성된 이전 OS 보안 패치는 ESU에 적합합니다",
             "guid": "4f8b20e9-a2a1-f80f-af9b-8aa3b26dca08",
             "id": "I02.01",
@@ -1171,10 +1171,10 @@
             "severity": "보통",
             "subcategory": "추가 지원",
             "text": "연장된 보안 업데이트 지원 확인 ",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "description": "SIEM/SOAR 사용",
             "guid": "9bb22fec-4d00-3b95-7136-e225d0f5c63a",
             "id": "I03.01",
@@ -1182,29 +1182,29 @@
             "severity": "보통",
             "subcategory": "조사",
             "text": "Azure Sentinel 또는 제3자 SIEM 사용 ",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "description": "클라우드용 MS Defender, Azure VMware Solution에서 실행되는 워크로드용",
             "guid": "f42b0b09-c591-238a-1580-2de3c485ebd2",
             "id": "I04.01",
             "link": "https://learn.microsoft.com/azure/azure-vmware/azure-security-integration#prerequisites",
             "severity": "보통",
-            "subcategory": "안전",
+            "subcategory": "보안",
             "text": "Advanced Threat Detection 사용Enable Advanced Threat Detection ",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
-            "category": "안전",
+            "category": "보안",
             "description": "적용 가능한 정책을 사용할 수 있습니까(MDfC에 추가된 규정 준수 기준)",
             "guid": "bcdd2348-3d0e-c6bb-1092-aa4cd1a66d6b",
             "id": "I04.02",
             "link": "https://docs.microsoft.com/azure/azure-vmware/azure-security-integration",
             "severity": "보통",
-            "subcategory": "안전",
+            "subcategory": "보안",
             "text": "정책 및 규정 준수",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "VM웨어",
@@ -1215,7 +1215,7 @@
             "severity": "보통",
             "subcategory": "방화벽",
             "text": "Azure / 제3자 방화벽",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "VM웨어",
@@ -1226,7 +1226,7 @@
             "severity": "보통",
             "subcategory": "방화벽",
             "text": "방화벽은 AVS 내부의 East/West 트래픽을 허용합니다.",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "VM웨어",
@@ -1259,7 +1259,7 @@
             "severity": "보통",
             "subcategory": "네트워킹",
             "text": "네트워크 확장에 대한 제한 사항",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "VM웨어",
@@ -1270,7 +1270,7 @@
             "severity": "보통",
             "subcategory": "네트워킹",
             "text": "이동성에 최적화된 네트워킹",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "VM웨어",
@@ -1303,7 +1303,7 @@
             "severity": "보통",
             "subcategory": "온-프레미스 필수 구성 요소",
             "text": "HCX 어플라이언스의 용량",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "VM웨어",
@@ -1423,13 +1423,13 @@
     },
     "severities": [
         {
-            "name": "높다"
+            "name": "높음"
         },
         {
             "name": "보통"
         },
         {
-            "name": "낮다"
+            "name": "낮음"
         }
     ],
     "status": [
@@ -1443,7 +1443,7 @@
         },
         {
             "description": "이 검사는 확인되었으며 이와 관련된 추가 작업 항목이 없습니다",
-            "name": "성취"
+            "name": "이행완료"
         },
         {
             "description": "권장 사항을 이해했지만 현재 요구 사항에는 필요하지 않습니다.",
@@ -1459,7 +1459,7 @@
             "name": "신뢰도"
         },
         {
-            "name": "안전"
+            "name": "보안"
         },
         {
             "name": "비용"
@@ -1468,7 +1468,7 @@
             "name": "작업"
         },
         {
-            "name": "공연"
+            "name": "성능"
         }
     ],
     "yesno": [
