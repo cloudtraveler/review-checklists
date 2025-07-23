@@ -41,7 +41,7 @@
             "id": "01.01.02",
             "link": "https://learn.microsoft.com/azure/aks/use-windows-hpc",
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "발달",
             "text": "AKS Windows 워크로드에 필요한 경우 HostProcess 컨테이너를 사용할 수 있습니다.",
             "waf": "신뢰도"
@@ -53,11 +53,11 @@
             "link": "https://learn.microsoft.com/azure/azure-functions/functions-kubernetes-keda",
             "scale": 1,
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "simple": -1,
             "subcategory": "발달",
             "text": "이벤트 기반 워크로드를 실행하는 경우 KEDA 사용Use KEDA if running event-driven workloads",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "응용 프로그램 배포",
@@ -65,7 +65,7 @@
             "id": "01.01.04",
             "link": "https://dapr.io/",
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "simple": 1,
             "subcategory": "발달",
             "text": "Dapr을 사용하여 마이크로 서비스 개발 용이",
@@ -89,7 +89,7 @@
             "ha": 1,
             "id": "02.01.01",
             "link": "https://learn.microsoft.com/azure/cloud-adoption-framework/ready/enterprise-scale/business-continuity-and-disaster-recovery",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "재해 복구",
             "text": "DR 테스트를 정기적으로 예약하고 수행합니다.",
             "waf": "신뢰도"
@@ -126,7 +126,7 @@
             "id": "02.02.03",
             "link": "https://learn.microsoft.com/azure/aks/uptime-sla",
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "고가용성",
             "text": "SLA 지원 AKS 제품 사용",
             "waf": "신뢰도"
@@ -138,7 +138,7 @@
             "id": "02.02.04",
             "link": "https://learn.microsoft.com/azure/aks/operator-best-practices-scheduler",
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "simple": -1,
             "subcategory": "고가용성",
             "text": "Pod 및 배포 정의에서 중단 예산 사용Use Disruption Budgets in your pod and deployment definitions",
@@ -152,7 +152,7 @@
             "id": "02.02.05",
             "link": "https://learn.microsoft.com/azure/container-registry/container-registry-geo-replication",
             "service": "ACR",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "고가용성",
             "text": "개인 레지스트리를 사용하는 경우 여러 지역에 이미지를 저장하도록 지역 복제를 구성합니다",
             "waf": "신뢰도"
@@ -163,7 +163,7 @@
             "ha": 1,
             "id": "02.03.01",
             "link": "https://learn.microsoft.com/azure/cloud-adoption-framework/ready/enterprise-scale/business-continuity-and-disaster-recovery",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "요구 사항",
             "text": "SLA, RTO(복구 시간 목표) 및 RPO(복구 시점 목표)와 같은 비기능적 요구 사항을 정의합니다.",
             "waf": "신뢰도"
@@ -175,7 +175,7 @@
             "id": "03.01.01",
             "link": "https://learn.microsoft.com/azure/cloud-adoption-framework/scenarios/aks/eslz-cost-governance-with-kubecost",
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "비용",
             "text": "kubecost와 같은 외부 애플리케이션을 사용하여 다른 사용자에게 비용 할당",
             "waf": "비용"
@@ -187,7 +187,7 @@
             "id": "03.01.02",
             "link": "https://learn.microsoft.com/azure/aks/scale-down-mode",
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "비용",
             "text": "축소 모드를 사용하여 노드 삭제/할당 취소",
             "waf": "비용"
@@ -211,7 +211,7 @@
             "id": "03.01.04",
             "link": "https://learn.microsoft.com/azure/aks/start-stop-nodepools",
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "비용",
             "text": "개발/테스트 클러스터를 실행하는 경우 NodePool 시작/중지를 사용합니다.",
             "waf": "비용"
@@ -228,7 +228,7 @@
             "simple": -1,
             "subcategory": "컴플라이언스",
             "text": "Kubernetes용 Azure Policy를 사용하여 클러스터 규정 준수 보장",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "거버넌스 및 보안",
@@ -243,7 +243,7 @@
             "simple": -1,
             "subcategory": "컴플라이언스",
             "text": "사용자/시스템 노드 풀이 있는 컨트롤 플레인에서 응용 프로그램 분리",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "거버넌스 및 보안",
@@ -252,11 +252,11 @@
             "id": "04.01.03",
             "link": "https://learn.microsoft.com/azure/aks/use-system-pools",
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "simple": -1,
             "subcategory": "컴플라이언스",
             "text": "시스템 nodepool에 taint를 추가하여 전용으로 만듭니다.",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "거버넌스 및 보안",
@@ -269,7 +269,7 @@
             "simple": -1,
             "subcategory": "컴플라이언스",
             "text": "이미지에 개인 레지스트리(예: ACR) 사용",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "거버넌스 및 보안",
@@ -282,7 +282,7 @@
             "severity": "보통",
             "subcategory": "컴플라이언스",
             "text": "이미지에서 취약성 검사",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "거버넌스 및 보안",
@@ -294,7 +294,7 @@
             "severity": "보통",
             "subcategory": "컴플라이언스",
             "text": "Azure Security Center를 사용하여 보안 태세 취약성 검색",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "거버넌스 및 보안",
@@ -303,10 +303,10 @@
             "id": "04.01.07",
             "link": "https://learn.microsoft.com/azure/aks/use-multiple-node-pools#add-a-fips-enabled-node-pool",
             "security": 1,
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "컴플라이언스",
             "text": "필요한 경우 FIPS를 구성합니다.",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "거버넌스 및 보안",
@@ -315,10 +315,10 @@
             "link": "https://learn.microsoft.com/azure/aks/operator-best-practices-cluster-isolation",
             "security": 1,
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "컴플라이언스",
             "text": "앱 분리 요구 사항 정의(네임스페이스/노드 풀/클러스터)",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "거버넌스 및 보안",
@@ -331,7 +331,7 @@
             "simple": -1,
             "subcategory": "비밀",
             "text": "CSI 비밀 저장소 드라이버를 사용하여 Azure Key Vault에 비밀 저장",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "거버넌스 및 보안",
@@ -340,10 +340,10 @@
             "link": "https://learn.microsoft.com/azure/aks/update-credentials",
             "security": 1,
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "비밀",
             "text": "클러스터에 서비스 주체를 사용하는 경우 주기적으로(예: 분기별) 자격 증명을 새로 고칩니다",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "거버넌스 및 보안",
@@ -356,7 +356,7 @@
             "severity": "보통",
             "subcategory": "비밀",
             "text": "필요한 경우 키 관리 서비스 etcd 암호화를 추가합니다.",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "거버넌스 및 보안",
@@ -366,10 +366,10 @@
             "link": "https://learn.microsoft.com/azure/confidential-computing/confidential-nodes-aks-overview",
             "security": 1,
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "비밀",
             "text": "필요한 경우 AKS용 기밀 컴퓨팅을 사용하는 것이 좋습니다.",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "거버넌스 및 보안",
@@ -382,7 +382,7 @@
             "severity": "보통",
             "subcategory": "비밀",
             "text": "컨테이너용 Defender 사용 고려",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "ID 및 액세스 관리",
@@ -391,11 +391,11 @@
             "id": "05.01.01",
             "link": "https://learn.microsoft.com/azure/aks/use-managed-identity",
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "simple": 1,
             "subcategory": "신원",
             "text": "서비스 주체 대신 관리 ID 사용",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "ID 및 액세스 관리",
@@ -408,7 +408,7 @@
             "simple": 1,
             "subcategory": "신원",
             "text": "AAD와 인증 통합(관리형 통합 사용)",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "ID 및 액세스 관리",
@@ -421,7 +421,7 @@
             "simple": -1,
             "subcategory": "신원",
             "text": "관리자 kubeconfig에 대한 액세스 제한(get-credentials --admin)",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "ID 및 액세스 관리",
@@ -434,7 +434,7 @@
             "simple": -1,
             "subcategory": "신원",
             "text": "AAD RBAC와 권한 부여 통합",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "ID 및 액세스 관리",
@@ -444,11 +444,11 @@
             "link": "https://learn.microsoft.com/azure/aks/operator-best-practices-identity",
             "security": 1,
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "simple": -1,
             "subcategory": "신원",
             "text": "쿠버네티스에서 RBAC 권한을 제한하기 위해 네임스페이스 사용",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "ID 및 액세스 관리",
@@ -461,7 +461,7 @@
             "simple": -1,
             "subcategory": "신원",
             "text": "Pod ID 액세스 관리의 경우 Azure AD 워크로드 ID(미리 보기)를 사용합니다.",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "ID 및 액세스 관리",
@@ -474,7 +474,7 @@
             "simple": -1,
             "subcategory": "신원",
             "text": "AKS 비대화형 로그인의 경우 kubelogin(미리 보기)을 사용합니다.",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "ID 및 액세스 관리",
@@ -488,7 +488,7 @@
             "simple": -1,
             "subcategory": "신원",
             "text": "AKS 로컬 계정 사용 안 함",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "ID 및 액세스 관리",
@@ -497,11 +497,11 @@
             "link": "https://learn.microsoft.com/azure/aks/managed-aad#configure-just-in-time-cluster-access-with-azure-ad-and-aks",
             "security": 1,
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "simple": -1,
             "subcategory": "신원",
             "text": "필요한 경우 Just-in-time 클러스터 액세스 구성",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "ID 및 액세스 관리",
@@ -510,11 +510,11 @@
             "link": "https://learn.microsoft.com/azure/aks/managed-aad#use-conditional-access-with-azure-ad-and-aks",
             "security": 1,
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "simple": -1,
             "subcategory": "신원",
             "text": "AKS에 필요한 경우 AAD 조건부 액세스 구성",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "ID 및 액세스 관리",
@@ -523,11 +523,11 @@
             "link": "https://learn.microsoft.com/azure/aks/use-group-managed-service-accounts",
             "security": 1,
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "simple": -1,
             "subcategory": "신원",
             "text": "Windows AKS 워크로드에 필요한 경우 gMSA를 구성합니다. ",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "ID 및 액세스 관리",
@@ -540,7 +540,7 @@
             "simple": -1,
             "subcategory": "신원",
             "text": "더 세밀하게 제어하려면 관리형 Kubelet ID를 사용하는 것이 좋습니다.",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워크 토폴로지 및 연결",
@@ -563,7 +563,7 @@
             "link": "https://learn.microsoft.com/azure/aks/http-application-routing",
             "scale": 1,
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "simple": -1,
             "subcategory": "권장사항",
             "text": "AKS HTTP 라우팅 추가 기능을 사용하지 말고, 애플리케이션 라우팅 추가 기능과 함께 관리되는 NGINX 수신을 대신 사용합니다.",
@@ -580,7 +580,7 @@
             "simple": -1,
             "subcategory": "권장사항",
             "text": "Windows 워크로드의 경우 가속화된 네트워킹을 사용합니다.",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "네트워크 토폴로지 및 연결",
@@ -590,7 +590,7 @@
             "link": "https://learn.microsoft.com/azure/aks/load-balancer-standard",
             "scale": 1,
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "권장사항",
             "text": "표준 ALB 사용(기본 ALB와 반대)",
             "waf": "신뢰도"
@@ -606,7 +606,7 @@
             "simple": -2,
             "subcategory": "권장사항",
             "text": "Azure CNI를 사용하는 경우 NodePools에 다른 서브넷을 사용하는 것이 좋습니다.",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워크 토폴로지 및 연결",
@@ -619,7 +619,7 @@
             "simple": -1,
             "subcategory": "비용",
             "text": "프라이빗 엔드포인트(기본 설정) 또는 Virtual Network 서비스 엔드포인트를 사용하여 클러스터에서 PaaS 서비스에 액세스",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워크 토폴로지 및 연결",
@@ -640,7 +640,7 @@
             "id": "06.04.01",
             "link": "https://learn.microsoft.com/azure/aks/operator-best-practices-network",
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "simple": 1,
             "subcategory": "아이팜",
             "text": "요구 사항에 가장 적합한 CNI 네트워크 플러그 인 선택(Azure CNI 권장)",
@@ -653,10 +653,10 @@
             "link": "https://learn.microsoft.com/azure/aks/configure-azure-cni",
             "scale": 1,
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "아이팜",
             "text": "Azure CNI를 사용하는 경우 노드당 최대 Pod 수를 고려하여 서브넷 크기를 적절하게 조정합니다",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "네트워크 토폴로지 및 연결",
@@ -665,11 +665,11 @@
             "link": "https://learn.microsoft.com/azure/aks/configure-azure-cni",
             "scale": 1,
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "simple": -1,
             "subcategory": "아이팜",
             "text": "Azure CNI를 사용하는 경우 최대 Pod/노드(기본값 30)를 확인합니다.",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "네트워크 토폴로지 및 연결",
@@ -679,11 +679,11 @@
             "link": "https://learn.microsoft.com/azure/aks/internal-lb",
             "security": 1,
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "simple": -1,
             "subcategory": "아이팜",
             "text": "개인 IP LoadBalancer 서비스를 사용하는 경우 AKS 서브넷이 아닌 전용 서브넷을 사용합니다",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워크 토폴로지 및 연결",
@@ -692,7 +692,7 @@
             "link": "https://learn.microsoft.com/azure/aks/configure-azure-cni",
             "scale": 1,
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "아이팜",
             "text": "그에 따라 서비스 IP 주소 범위의 크기를 조정합니다(클러스터 확장성이 제한됨).",
             "waf": "신뢰도"
@@ -704,11 +704,11 @@
             "link": "https://learn.microsoft.com/azure/aks/use-byo-cni",
             "security": 1,
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "simple": -2,
             "subcategory": "작업",
             "text": "필요한 경우 자체 CNI 플러그인을 추가합니다.",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워크 토폴로지 및 연결",
@@ -717,11 +717,11 @@
             "link": "https://learn.microsoft.com/azure/aks/use-multiple-node-pools#assign-a-public-ip-per-node-for-your-node-pools",
             "security": 1,
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "simple": -2,
             "subcategory": "작업",
             "text": "필요한 경우 AKS에서 노드당 공용 IP 구성",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "네트워크 토폴로지 및 연결",
@@ -743,7 +743,7 @@
             "link": "https://learn.microsoft.com/azure/aks/nat-gateway",
             "scale": 1,
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "simple": -1,
             "subcategory": "확장성",
             "text": "송신 트래픽 크기 조정을 위해 Azure NAT Gateway를 outboundType으로 사용",
@@ -770,11 +770,11 @@
             "link": "https://learn.microsoft.com/azure/aks/limit-egress-traffic",
             "security": 2,
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "simple": -2,
-            "subcategory": "안전",
+            "subcategory": "보안",
             "text": "보안 요구 사항에 필요한 경우 AzFW/NVA를 사용하여 송신 트래픽 필터링",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워크 토폴로지 및 연결",
@@ -786,9 +786,9 @@
             "service": "AKS",
             "severity": "보통",
             "simple": -1,
-            "subcategory": "안전",
+            "subcategory": "보안",
             "text": "퍼블릭 API 엔드포인트를 사용하는 경우 액세스할 수 있는 IP 주소를 제한합니다",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워크 토폴로지 및 연결",
@@ -798,11 +798,11 @@
             "link": "https://learn.microsoft.com/azure/aks/private-clusters",
             "security": 1,
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "simple": -1,
-            "subcategory": "안전",
+            "subcategory": "보안",
             "text": "요구 사항에 따라 개인 클러스터를 사용합니다",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워크 토폴로지 및 연결",
@@ -814,9 +814,9 @@
             "service": "AKS",
             "severity": "보통",
             "simple": -1,
-            "subcategory": "안전",
+            "subcategory": "보안",
             "text": "Windows 2019 및 2022 AKS 노드의 경우 Calico 네트워크 정책을 사용할 수 있습니다. ",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워크 토폴로지 및 연결",
@@ -826,10 +826,10 @@
             "link": "https://learn.microsoft.com/azure/aks/use-network-policies",
             "security": 1,
             "service": "AKS",
-            "severity": "높다",
-            "subcategory": "안전",
+            "severity": "높음",
+            "subcategory": "보안",
             "text": "Kubernetes 네트워크 정책 옵션 사용(Calico/Azure)",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워크 토폴로지 및 연결",
@@ -838,11 +838,11 @@
             "link": "https://learn.microsoft.com/azure/aks/operator-best-practices-network",
             "security": 1,
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "simple": -1,
-            "subcategory": "안전",
+            "subcategory": "보안",
             "text": "쿠버네티스 네트워크 정책을 사용하여 클러스터 내 보안 강화",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워크 토폴로지 및 연결",
@@ -852,11 +852,11 @@
             "link": "https://learn.microsoft.com/azure/aks/operator-best-practices-network",
             "security": 2,
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "simple": -1,
-            "subcategory": "안전",
+            "subcategory": "보안",
             "text": "웹 워크로드(UI 또는 API)에 WAF 사용Use a WAF for web workloads (UIs or APIs)",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워크 토폴로지 및 연결",
@@ -868,9 +868,9 @@
             "security": 2,
             "service": "AKS",
             "severity": "보통",
-            "subcategory": "안전",
+            "subcategory": "보안",
             "text": "AKS Virtual Network에서 DDoS 표준 사용Use DDoS Standard in the AKS Virtual Network",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워크 토폴로지 및 연결",
@@ -881,10 +881,10 @@
             "link": "https://learn.microsoft.com/azure/aks/http-proxy",
             "security": 2,
             "service": "AKS",
-            "severity": "낮다",
-            "subcategory": "안전",
+            "severity": "낮음",
+            "subcategory": "보안",
             "text": "필요한 경우 회사 HTTP 프록시를 추가합니다.",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "네트워크 토폴로지 및 연결",
@@ -895,9 +895,9 @@
             "service": "AKS",
             "severity": "보통",
             "simple": -2,
-            "subcategory": "안전",
+            "subcategory": "보안",
             "text": "고급 마이크로서비스 통신 관리를 위해 서비스 메시를 사용하는 것이 좋습니다",
-            "waf": "안전"
+            "waf": "보안"
         },
         {
             "category": "작업",
@@ -906,7 +906,7 @@
             "id": "07.01.01",
             "link": "https://learn.microsoft.com/azure/azure-monitor/insights/container-insights-metric-alerts",
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "simple": -1,
             "subcategory": "경고",
             "text": "가장 중요한 메트릭에 대한 경고 구성(권장 사항은 Container Insights 참조)",
@@ -919,7 +919,7 @@
             "id": "07.02.01",
             "link": "https://learn.microsoft.com/azure/advisor/advisor-get-started",
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "simple": -1,
             "subcategory": "컴플라이언스",
             "text": "Azure Advisor에서 클러스터에 대한 권장 사항을 정기적으로 확인합니다.",
@@ -931,7 +931,7 @@
             "id": "07.02.03",
             "link": "https://learn.microsoft.com/azure/aks/certificate-rotation",
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "simple": 1,
             "subcategory": "컴플라이언스",
             "text": "AKS 자동 인증서 회전 사용",
@@ -944,7 +944,7 @@
             "link": "https://learn.microsoft.com/azure/aks/supported-kubernetes-versions",
             "security": 1,
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "simple": -1,
             "subcategory": "컴플라이언스",
             "text": "kubernetes 버전을 주기적으로(예: 분기별) 업그레이드하거나 AKS 자동 업그레이드 기능을 사용하는 정기적인 프로세스가 있습니다.",
@@ -956,7 +956,7 @@
             "id": "07.02.05",
             "link": "https://learn.microsoft.com/azure/aks/node-updates-kured",
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "simple": -1,
             "subcategory": "컴플라이언스",
             "text": "node-image upgrade를 사용하지 않는 경우 Linux 노드 업그레이드에 kured를 사용합니다.",
@@ -969,7 +969,7 @@
             "link": "https://learn.microsoft.com/azure/aks/node-image-upgrade",
             "security": 1,
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "simple": -1,
             "subcategory": "컴플라이언스",
             "text": "클러스터 노드 이미지를 주기적으로(예: 매주) 업그레이드하는 정기적인 프로세스가 있습니다.",
@@ -981,7 +981,7 @@
             "id": "07.02.07",
             "link": "https://learn.microsoft.com/azure/architecture/example-scenario/bedrock/bedrock-automated-deployments",
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "컴플라이언스",
             "text": "gitops를 고려하여 애플리케이션 또는 클러스터 구성을 여러 클러스터에 배포합니다.",
             "waf": "작업"
@@ -992,7 +992,7 @@
             "id": "07.02.08",
             "link": "https://learn.microsoft.com/azure/aks/command-invoke",
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "컴플라이언스",
             "text": "프라이빗 클러스터에서 AKS 명령 호출을 사용하는 것이 좋습니다.",
             "waf": "작업"
@@ -1004,7 +1004,7 @@
             "link": "https://learn.microsoft.com/azure/aks/node-auto-repair#node-autodrain",
             "security": 1,
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "컴플라이언스",
             "text": "계획된 이벤트의 경우 노드 자동 드레인 사용을 고려하십시오.",
             "waf": "작업"
@@ -1016,7 +1016,7 @@
             "link": "https://learn.microsoft.com/azure/aks/faq",
             "security": 1,
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "컴플라이언스",
             "text": "노드 RG(일명 '인프라 RG')의 운영자가 변경을 수행하지 않도록 자체 거버넌스 관행을 개발합니다.",
             "waf": "작업"
@@ -1028,7 +1028,7 @@
             "id": "07.02.11",
             "link": "https://learn.microsoft.com/azure/aks/cluster-configuration",
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "simple": 1,
             "subcategory": "컴플라이언스",
             "text": "사용자 정의 노드 RG (일명 '인프라 RG') 이름 사용",
@@ -1054,7 +1054,7 @@
             "id": "07.02.13",
             "link": "https://learn.microsoft.com/azure-stack/aks-hci/adapt-apps-mixed-os-clusters",
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "simple": -1,
             "subcategory": "컴플라이언스",
             "text": "테인트 Windows 노드",
@@ -1066,7 +1066,7 @@
             "id": "07.02.14",
             "link": "https://learn.microsoft.com/virtualization/windowscontainers/deploy-containers/version-compatibility?tabs=windows-server-20H2%2Cwindows-10-20H2",
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "컴플라이언스",
             "text": "Windows 컨테이너 패치 수준을 호스트 패치 수준과 동기화된 상태로 유지",
             "waf": "작업"
@@ -1080,7 +1080,7 @@
             "id": "07.02.15",
             "link": "https://learn.microsoft.com/azure/aks/monitor-aks",
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "컴플라이언스",
             "text": "마스터 로그(즉, API 로그)를 Azure Monitor 또는 기본 로그 관리 솔루션으로 보냅니다",
             "waf": "작업"
@@ -1092,7 +1092,7 @@
             "id": "07.02.16",
             "link": "https://learn.microsoft.com/azure/aks/node-pool-snapshot",
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "컴플라이언스",
             "text": "필요한 경우 nodePool 스냅샷을 사용합니다.",
             "waf": "비용"
@@ -1104,7 +1104,7 @@
             "id": "07.03.01",
             "link": "https://learn.microsoft.com/azure/aks/spot-node-pool",
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "simple": -1,
             "subcategory": "비용",
             "text": "시간에 민감하지 않은 워크로드에 대한 스폿 노드 풀 고려",
@@ -1118,7 +1118,7 @@
             "link": "https://learn.microsoft.com/azure/aks/concepts-scale",
             "scale": 1,
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "simple": -1,
             "subcategory": "비용",
             "text": "빠른 버스팅을 위해 AKS 가상 노드 고려",
@@ -1131,7 +1131,7 @@
             "id": "07.04.01",
             "link": "https://learn.microsoft.com/azure/azure-monitor/insights/container-insights-overview",
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "simple": -1,
             "subcategory": "모니터링",
             "text": "Container Insights(또는 Prometheus와 같은 다른 도구)를 사용하여 클러스터 지표 모니터링",
@@ -1145,7 +1145,7 @@
             "id": "07.04.02",
             "link": "https://learn.microsoft.com/azure/azure-monitor/insights/container-insights-overview",
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "simple": -1,
             "subcategory": "모니터링",
             "text": "Container Insights(또는 Telegraf/ElasticSearch와 같은 다른 도구)를 사용하여 클러스터 로그를 저장하고 분석합니다.",
@@ -1223,7 +1223,7 @@
             "id": "07.05.01",
             "link": "https://learn.microsoft.com/azure/aks/operator-best-practices-scheduler",
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "simple": -1,
             "subcategory": "리소스",
             "text": "Pod 규격에서 요청 및 제한 구성",
@@ -1249,7 +1249,7 @@
             "id": "07.05.03",
             "link": "https://learn.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits",
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "리소스",
             "text": "구독에 노드 풀을 확장할 수 있는 충분한 할당량이 있는지 확인합니다.",
             "waf": "작업"
@@ -1266,7 +1266,7 @@
             "severity": "보통",
             "subcategory": "확장성",
             "text": "Cluster Autoscaler 사용",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "작업",
@@ -1277,10 +1277,10 @@
             "id": "07.06.02",
             "link": "https://learn.microsoft.com/azure/aks/custom-node-configuration",
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "확장성",
             "text": "AKS 노드 풀에 대한 노드 구성 사용자 지정",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "작업",
@@ -1293,7 +1293,7 @@
             "simple": -1,
             "subcategory": "확장성",
             "text": "필요한 경우 Horizontal Pod Autoscaler 사용",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "작업",
@@ -1303,10 +1303,10 @@
             "id": "07.06.04",
             "link": "https://blog.cloudtrooper.net/2020/10/23/which-vm-size-should-i-choose-as-aks-node/",
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "확장성",
             "text": "너무 크거나 너무 작지 않은 적절한 노드 크기를 고려합니다",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "작업",
@@ -1315,10 +1315,10 @@
             "id": "07.06.05",
             "link": "https://learn.microsoft.com/azure/aks/quotas-skus-regions#service-quotas-and-limits",
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "확장성",
             "text": "확장성을 위해 5,000개 이상의 노드가 필요한 경우 추가 AKS 클러스터를 사용하는 것이 좋습니다",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "작업",
@@ -1327,10 +1327,10 @@
             "id": "07.06.06",
             "link": "https://learn.microsoft.com/azure/event-grid/event-schema-aks",
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "확장성",
             "text": "AKS 자동화를 위해 EventGrid 이벤트를 구독하는 것이 좋습니다.",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "작업",
@@ -1339,10 +1339,10 @@
             "id": "07.06.07",
             "link": "https://learn.microsoft.com/azure/aks/manage-abort-operations",
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "확장성",
             "text": "AKS 클러스터에서 장기 실행 작업의 경우 이벤트 종료를 고려합니다.",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "작업",
@@ -1351,10 +1351,10 @@
             "id": "07.06.08",
             "link": "https://learn.microsoft.com/azure/aks/use-azure-dedicated-hosts",
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "확장성",
             "text": "필요한 경우 AKS 노드에 Azure Dedicated Host를 사용하는 것이 좋습니다",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "작업",
@@ -1365,10 +1365,10 @@
             "link": "https://learn.microsoft.com/azure/aks/cluster-configuration",
             "scale": 1,
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "보관",
             "text": "임시 OS 디스크 사용",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "작업",
@@ -1378,10 +1378,10 @@
             "link": "https://learn.microsoft.com/azure/virtual-machines/disks-types",
             "scale": 1,
             "service": "AKS",
-            "severity": "높다",
+            "severity": "높음",
             "subcategory": "보관",
             "text": "임시 디스크가 아닌 디스크의 경우 여러 Pod를 실행하는 데 고성능이 필요하고 기본 AKS 로그 회전 임계값을 사용하여 대규모 로그를 생성하므로 많은 Pod/노드를 실행할 때 노드에 높은 IOPS 및 더 큰 OS 디스크를 사용합니다",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "작업",
@@ -1391,10 +1391,10 @@
             "link": "https://learn.microsoft.com/azure/aks/use-ultra-disks",
             "scale": 1,
             "service": "AKS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "보관",
             "text": "고성능 스토리지 옵션의 경우 AKS에서 Ultra Disks를 사용합니다.",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "작업",
@@ -1407,7 +1407,7 @@
             "simple": -1,
             "subcategory": "보관",
             "text": "클러스터에서 상태를 유지하지 않고 외부(AzStorage, AzSQL, Cosmos 등)에 데이터를 저장합니다.",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "작업",
@@ -1420,7 +1420,7 @@
             "severity": "보통",
             "subcategory": "보관",
             "text": "AzFiles 표준을 사용하는 경우 성능상의 이유로 AzFiles 프리미엄 및/또는 ANF를 고려합니다",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "작업",
@@ -1433,7 +1433,7 @@
             "simple": -1,
             "subcategory": "보관",
             "text": "Azure 디스크 및 AZ를 사용하는 경우 올바른 영역에 스토리지를 프로비전하기 위해 VolumeBindingMode::WaitForFirstConsumer를 사용하여 LRS 디스크의 영역 내에 노드 풀을 사용하거나 여러 영역에 걸쳐 있는 노드 풀에 ZRS 디스크를 사용하는 것이 좋습니다",
-            "waf": "공연"
+            "waf": "성능"
         }
     ],
     "metadata": {
@@ -1444,13 +1444,13 @@
     },
     "severities": [
         {
-            "name": "높다"
+            "name": "높음"
         },
         {
             "name": "보통"
         },
         {
-            "name": "낮다"
+            "name": "낮음"
         }
     ],
     "status": [
@@ -1464,7 +1464,7 @@
         },
         {
             "description": "이 검사는 확인되었으며 이와 관련된 추가 작업 항목이 없습니다",
-            "name": "성취"
+            "name": "이행완료"
         },
         {
             "description": "권장 사항은 이해되었지만 현재 요구 사항에 필요하지 않음",
@@ -1480,7 +1480,7 @@
             "name": "신뢰도"
         },
         {
-            "name": "안전"
+            "name": "보안"
         },
         {
             "name": "비용"
@@ -1489,7 +1489,7 @@
             "name": "작업"
         },
         {
-            "name": "공연"
+            "name": "성능"
         }
     ]
 }
