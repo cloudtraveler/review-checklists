@@ -129,7 +129,7 @@
             "severity": "높다",
             "subcategory": "건축학",
             "text": "현재 고객 사용 사례에 대해 올바른 Azure VMware Solution 연결 모델을 선택했습니까?",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "네트워킹",
@@ -326,7 +326,7 @@
             "guid": "85e12139-bd7b-4b01-8f7b-95ef6e043e2a",
             "id": "C03.03",
             "service": "AVS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "보안(게스트/VM)",
             "text": "Azure VMware Solution의 워크로드가 런타임 중에 충분한 데이터 암호화(예: 게스트 내 디스크 암호화 및 SQL TDE)를 사용하는지 확인합니다. (vSAN 미사용 암호화가 기본값임)",
             "waf": "안전"
@@ -336,7 +336,7 @@
             "guid": "a3592718-e6e2-4051-9267-6ae46691e883",
             "id": "C03.04",
             "service": "AVS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "보안(게스트/VM)",
             "text": "게스트 내 암호화를 사용하는 경우 가능한 경우 Azure Key Vault에 암호화 키를 저장합니다",
             "waf": "안전"
@@ -416,7 +416,7 @@
             "guid": "6e043e2a-a359-4271-ae6e-205172676ae4",
             "id": "C04.07",
             "service": "AVS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "거버넌스(플랫폼)",
             "text": "Azure VMware Solution 사용 비용을 최적화하는 데 사용되는 Azure 예약 인스턴스입니까?",
             "waf": "비용"
@@ -439,7 +439,7 @@
             "severity": "높다",
             "subcategory": "거버넌스(플랫폼)",
             "text": "필요한 모든 리소스가 동일한 Azure 가용성 영역 내에 있는지 확인합니다.",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "지배구조",
@@ -596,7 +596,7 @@
             "guid": "9674c5ed-85b8-459c-9733-be2b1a27b775",
             "id": "D01.06",
             "service": "AVS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "모니터링",
             "text": "VMware vSphere에 대한 심층적인 통찰력이 필요한 경우: 솔루션에서 vRealize Operations 및/또는 vRealize Network Insights가 사용됩니까?",
             "waf": "작업"
@@ -786,7 +786,7 @@
             "guid": "26028a71-f0f1-4cac-9d9e-f1d5e832d42e",
             "id": "E03.04",
             "service": "AVS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "비즈니스 연속성",
             "text": "Azure 플랫폼에서 관리하는 VMware 구성 요소의 복원을 요청하는 프로세스가 마련되어 있나요?",
             "waf": "신뢰도"
@@ -796,7 +796,7 @@
             "guid": "4604489a-8f42-4d78-b78c-b7a33bd2a0a1",
             "id": "F01.01",
             "service": "AVS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "배포 전략",
             "text": "수동 배포의 경우 모든 구성 및 배포를 문서화해야 합니다",
             "waf": "작업"
@@ -806,7 +806,7 @@
             "guid": "7e7a8d90-ae0e-437c-be29-711bd352caaa",
             "id": "F01.02",
             "service": "AVS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "배포 전략",
             "text": "수동 배포의 경우 Azure VMware Solution 프라이빗 클라우드에서 실수로 인한 작업을 방지하기 위해 리소스 잠금을 구현하는 것이 좋습니다",
             "waf": "작업"
@@ -816,7 +816,7 @@
             "guid": "b79b198d-ab81-4932-a9fc-9d1bb78036f5",
             "id": "F02.01",
             "service": "AVS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "자동화된 배포",
             "text": "자동화된 배포의 경우 최소한의 프라이빗 클라우드를 배포하고 필요에 따라 확장합니다",
             "waf": "작업"
@@ -826,7 +826,7 @@
             "guid": "e6bfbb9e-d503-4547-ac44-7e826128a71f",
             "id": "F02.02",
             "service": "AVS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "자동화된 배포",
             "text": "자동화된 배포의 경우 배포를 시작하기 전에 할당량을 요청하거나 예약합니다",
             "waf": "작업"
@@ -836,7 +836,7 @@
             "guid": "0f1cac6d-9ef1-4d5e-a32e-42e3611c818b",
             "id": "F02.03",
             "service": "AVS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "자동화된 배포",
             "text": "자동화된 배포의 경우 적절한 거버넌스를 위해 자동화 또는 Azure Policy를 통해 관련 리소스 잠금을 만들어야 합니다",
             "waf": "작업"
@@ -846,7 +846,7 @@
             "guid": "e2cc95d4-8c6b-4791-bca0-f6c56589e558",
             "id": "F03.01",
             "service": "AVS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "자동화된 연결",
             "text": "ExR 인증 키에 대해 사람이 이해할 수 있는 이름을 구현하여 키의 목적/용도를 쉽게 식별할 수 있습니다.",
             "waf": "작업"
@@ -856,7 +856,7 @@
             "guid": "255461e2-aee3-4553-afc8-339248b262d6",
             "id": "F03.02",
             "service": "AVS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "자동화된 연결",
             "text": "Azure VMware Solution 및 ExpressRoute를 배포하는 데 별도의 서비스 원칙을 사용하는 경우 Key Vault를 사용하여 비밀 및 권한 부여 키를 저장합니다",
             "waf": "작업"
@@ -866,7 +866,7 @@
             "guid": "cc5f5129-2539-48e6-bb9d-37dac43bc6cd",
             "id": "F03.03",
             "service": "AVS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "자동화된 연결",
             "text": "Azure VMware Solution은 제한된 수의 병렬 작업만 지원하므로 많은 리소스를 Azure VMware Solution 배포해야 하는 경우 IaC에서 작업을 직렬화하기 위한 리소스 종속성을 정의합니다.",
             "waf": "작업"
@@ -876,7 +876,7 @@
             "guid": "1d79a9b2-4604-4489-a8f4-2d78e78cb7a3",
             "id": "F03.04",
             "service": "AVS",
-            "severity": "낮다",
+            "severity": "낮음",
             "subcategory": "자동화된 연결",
             "text": "단일 Tier-1 게이트웨이를 사용하여 NSX-T 세그먼트의 자동화된 구성을 수행하는 경우 NSX-Manager API 대신 Azure Portal API를 사용합니다",
             "waf": "작업"
@@ -889,7 +889,7 @@
             "severity": "보통",
             "subcategory": "자동화된 확장",
             "text": "자동화된 스케일 아웃을 사용하려는 경우 Azure VMware Solution을 실행하는 구독에 대해 충분한 Azure VMware Solution 할당량을 적용해야 합니다",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "플랫폼 자동화",
@@ -899,7 +899,7 @@
             "severity": "보통",
             "subcategory": "자동화된 확장",
             "text": "자동 축소를 사용하려는 경우 이러한 작업을 수행하기 전에 스토리지 정책 요구 사항을 고려해야 합니다",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "플랫폼 자동화",
@@ -909,7 +909,7 @@
             "severity": "보통",
             "subcategory": "자동화된 확장",
             "text": "한 번에 하나의 크기 조정 작업만 수행할 수 있으므로 크기 조정 작업은 항상 단일 SDDC 내에서 직렬화되어야 합니다(여러 클러스터를 사용하는 경우에도)",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "플랫폼 자동화",
@@ -919,7 +919,7 @@
             "severity": "보통",
             "subcategory": "자동화된 확장",
             "text": "아키텍처에 사용되는 제3자 솔루션에 대한 확장 작업을 고려하고 검증합니다(지원 여부)Consider and validate scaling operations on 3rd party solutions used in the architecture (supported or not)",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "플랫폼 자동화",
@@ -929,7 +929,7 @@
             "severity": "보통",
             "subcategory": "자동화된 확장",
             "text": "자동화에서 환경에 대한 규모 확장/축소 최대 한도 정의 및 적용Define and enforce scale in/out maximum limits for your environment in the automations",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "플랫폼 자동화",
@@ -973,7 +973,7 @@
             "severity": "보통",
             "subcategory": "네트워킹",
             "text": "마이그레이션에 VPN 연결을 사용하는 경우 그에 따라 MTU 크기를 조정합니다.",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "이주",
@@ -983,7 +983,7 @@
             "severity": "보통",
             "subcategory": "네트워킹",
             "text": "Azure(500Mbps 이하)에 연결하는 낮은 연결 지역의 경우 HCX WAN 최적화 어플라이언스 배포를 고려합니다.",
-            "waf": "공연"
+            "waf": "성능"
         },
         {
             "category": "이주",
@@ -1098,7 +1098,7 @@
             "name": "보통"
         },
         {
-            "name": "낮다"
+            "name": "낮음"
         }
     ],
     "status": [
@@ -1112,7 +1112,7 @@
         },
         {
             "description": "이 검사는 확인되었으며 이와 관련된 추가 작업 항목이 없습니다",
-            "name": "성취"
+            "name": "이행완료"
         },
         {
             "description": "권장 사항은 이해되었지만 현재 요구 사항에 필요하지 않음",
@@ -1137,7 +1137,7 @@
             "name": "작업"
         },
         {
-            "name": "공연"
+            "name": "성능"
         }
     ],
     "yesno": [
